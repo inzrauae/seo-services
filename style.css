@@ -1086,6 +1086,11 @@ section[id] {
     margin: 0 0 2rem;
 }
 
+.faq-col,
+.contact-col {
+    min-width: 0;
+}
+
 .contact-col {
     position: sticky;
     top: 100px;
