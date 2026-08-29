@@ -1319,6 +1319,12 @@ section[id] {
     color: rgba(212, 175, 55, 0.3);
 }
 
+.footer-areas-bar .current-city {
+    color: var(--text-main);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
 .footer-col a,
 .footer-text {
     color: rgba(242, 237, 225, 0.65);

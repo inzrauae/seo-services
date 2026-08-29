@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect /index.html to the root (avoid duplicate content)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# Redirect any request for an actual .html file to its extensionless URL
+RewriteCond %{THE_REQUEST} \s/+([^.\s]+)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Internally serve the .html file for the extensionless URL (no visible redirect)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
