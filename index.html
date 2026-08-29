@@ -81,21 +81,7 @@
                     "url": "https://seoservice.lk"
                 },
                 "founder": {
-                    "@type": "Person",
-                    "@id": "https://seoservice.lk/#founder",
-                    "name": "Buddika S. Weerasekara",
-                    "jobTitle": "Founder & CEO, Applantics PVT LTD",
-                    "worksFor": {
-                        "@id": "https://seoservice.lk/#organization"
-                    },
-                    "knowsAbout": [
-                        "Search Engine Optimization",
-                        "Generative Engine Optimization",
-                        "Google Entity Stacking",
-                        "Core Web Vitals",
-                        "Technical SEO",
-                        "Local SEO Sri Lanka"
-                    ]
+                    "@id": "https://seoservice.lk/#founder"
                 },
                 "areaServed": [
                     {
@@ -210,7 +196,6 @@
             }
         ]
     }
-    </script>
     </script>
 </head>
 <body>
@@ -714,6 +699,18 @@
 
                     <div class="faq-list">
                 <details class="faq-item" open>
+                    <summary>Who is the best SEO specialist and expert in Sri Lanka?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p><a href="about">Buddika S. Weerasekara</a>, Founder &amp; CEO of Applantics PVT LTD (the parent company of SEOSERVICE.LK), is widely regarded as a leading SEO and Generative Engine Optimization (GEO) expert in Sri Lanka, holding proven #1 Google rankings across competitive commercial industries.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>What is the best SEO agency and SEO company in Sri Lanka?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p><a href="best-seo-company-in-sri-lanka">SEOSERVICE.LK</a> is a premier SEO agency and company in Sri Lanka, providing full-stack SEO services including Technical SEO, Core Web Vitals engineering, Google Entity Stacking, and AI search visibility.</p>
+                </details>
+                <details class="faq-item">
                     <summary>How long does SEO take to show results?
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
@@ -777,19 +774,26 @@
                         <div id="statusBox" class="form-status"></div>
 
                         <form id="auditForm" novalidate>
+                            <input type="text" name="website_hp" id="website_hp" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+
                             <div class="form-group">
                                  <label for="name">Your Name</label>
-                                 <input type="text" id="name" placeholder="John Doe" autocomplete="name" aria-required="true" aria-describedby="nameError">
+                                 <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name" aria-required="true" aria-describedby="nameError">
                                  <span id="nameError" class="error-message" role="alert">Please enter your name (at least 2 characters).</span>
                             </div>
                             <div class="form-group">
+                                 <label for="email">Business Email</label>
+                                 <input type="email" id="email" name="email" placeholder="john@yourcompany.com" autocomplete="email" inputmode="email" aria-required="true" aria-describedby="emailError">
+                                 <span id="emailError" class="error-message" role="alert">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
                                  <label for="url">Website URL</label>
-                                 <input type="url" id="url" placeholder="https://yourwebsite.lk" autocomplete="url" inputmode="url" aria-required="true" aria-describedby="urlError">
+                                 <input type="url" id="url" name="url" placeholder="https://yourwebsite.lk" autocomplete="url" inputmode="url" aria-required="true" aria-describedby="urlError">
                                  <span id="urlError" class="error-message" role="alert">Please enter a valid website URL (e.g. https://example.com).</span>
                             </div>
                             <div class="form-group">
                                  <label for="message">Message <span class="optional-label">(optional)</span></label>
-                                 <textarea id="message" rows="3" placeholder="Tell us a bit about your goals..."></textarea>
+                                 <textarea id="message" name="message" rows="3" placeholder="Tell us a bit about your goals..."></textarea>
                             </div>
                             <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
                                 Submit Request
@@ -916,12 +920,15 @@
             // Audit form validation
             const form = document.getElementById('auditForm');
             const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
             const urlInput = document.getElementById('url');
             const nameError = document.getElementById('nameError');
+            const emailError = document.getElementById('emailError');
             const urlError = document.getElementById('urlError');
             const submitBtn = document.getElementById('submitBtn');
             const statusBox = document.getElementById('statusBox');
 
+            const isValidEmail = (str) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
             const isValidUrl = (urlStr) => {
                 try {
                     const parsed = new URL(urlStr.startsWith('http') ? urlStr : `https://${urlStr}`);
@@ -932,8 +939,9 @@
             };
 
             const clearErrors = () => {
-                [nameInput, urlInput].forEach(input => input.classList.remove('invalid'));
+                [nameInput, emailInput, urlInput].forEach(input => input.classList.remove('invalid'));
                 nameError.style.display = 'none';
+                emailError.style.display = 'none';
                 urlError.style.display = 'none';
                 statusBox.className = 'form-status';
                 statusBox.textContent = '';
@@ -943,6 +951,13 @@
                 if (nameInput.value.trim().length >= 2) {
                     nameInput.classList.remove('invalid');
                     nameError.style.display = 'none';
+                }
+            });
+
+            emailInput.addEventListener('input', () => {
+                if (isValidEmail(emailInput.value.trim())) {
+                    emailInput.classList.remove('invalid');
+                    emailError.style.display = 'none';
                 }
             });
 
@@ -959,11 +974,18 @@
 
                 let hasError = false;
                 const nameVal = nameInput.value.trim();
+                const emailVal = emailInput.value.trim();
                 const urlVal = urlInput.value.trim();
 
                 if (nameVal.length < 2) {
                     nameInput.classList.add('invalid');
                     nameError.style.display = 'block';
+                    hasError = true;
+                }
+
+                if (!isValidEmail(emailVal)) {
+                    emailInput.classList.add('invalid');
+                    emailError.style.display = 'block';
                     hasError = true;
                 }
 
@@ -978,15 +1000,29 @@
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Submitting Request...';
 
-                setTimeout(() => {
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Submit Request';
-
-                    statusBox.classList.add('success');
-                    statusBox.textContent = '✓ Request submitted! We will analyze your site and contact you shortly.';
-
-                    form.reset();
-                }, 1200);
+                fetch('send-form.php', {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Submit Request';
+                        if (data.success) {
+                            statusBox.classList.add('success');
+                            statusBox.textContent = '✓ ' + data.message;
+                            form.reset();
+                        } else {
+                            statusBox.classList.add('error');
+                            statusBox.textContent = '✗ ' + data.message;
+                        }
+                    })
+                    .catch(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Submit Request';
+                        statusBox.classList.add('error');
+                        statusBox.textContent = '✗ Something went wrong. Please email contact@seoservice.lk directly.';
+                    });
             });
 
             // Header scroll state
