@@ -209,21 +209,23 @@
                     <div id="statusBox" class="form-status"></div>
 
                     <form id="auditForm" novalidate>
+                        <input type="text" name="website_hp" id="website_hp" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+
                         <div class="form-group">
                             <label for="name">Your Name *</label>
-                            <input type="text" id="name" placeholder="John Doe" autocomplete="name" aria-required="true" aria-describedby="nameError">
+                            <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name" aria-required="true" aria-describedby="nameError">
                             <span id="nameError" class="error-message" role="alert">Please enter your name (at least 2 characters).</span>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Business Email *</label>
-                            <input type="email" id="email" placeholder="john@yourcompany.com" autocomplete="email" inputmode="email" aria-required="true" aria-describedby="emailError">
+                            <input type="email" id="email" name="email" placeholder="john@yourcompany.com" autocomplete="email" inputmode="email" aria-required="true" aria-describedby="emailError">
                             <span id="emailError" class="error-message" role="alert">Please enter a valid email address.</span>
                         </div>
 
                         <div class="form-group">
                             <label for="url">Website URL *</label>
-                            <input type="url" id="url" placeholder="https://yourwebsite.lk" autocomplete="url" inputmode="url" aria-required="true" aria-describedby="urlError">
+                            <input type="url" id="url" name="url" placeholder="https://yourwebsite.lk" autocomplete="url" inputmode="url" aria-required="true" aria-describedby="urlError">
                             <span id="urlError" class="error-message" role="alert">Please enter a valid website URL (e.g. https://example.com).</span>
                         </div>
 
@@ -240,7 +242,7 @@
 
                         <div class="form-group">
                             <label for="message">Specific Goals / Competitors <span class="optional-label">(optional)</span></label>
-                            <textarea id="message" rows="3" placeholder="Tell us about your main competitors, target countries, or key challenges..."></textarea>
+                            <textarea id="message" name="message" rows="3" placeholder="Tell us about your main competitors, target countries, or key challenges..."></textarea>
                         </div>
 
                         <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
@@ -485,14 +487,32 @@
 
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Submitting Request...';
+                statusBox.classList.remove('success', 'error');
+                statusBox.textContent = '';
 
-                setTimeout(() => {
-                    submitBtn.disabled = false;
-                    submitBtn.textContent = 'Request Free SEO Audit';
-                    statusBox.classList.add('success');
-                    statusBox.textContent = '✓ Request received! We will prepare your audit and contact you shortly.';
-                    form.reset();
-                }, 1200);
+                fetch('send-form.php', {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Request Free SEO Audit';
+                        if (data.success) {
+                            statusBox.classList.add('success');
+                            statusBox.textContent = '✓ ' + data.message;
+                            form.reset();
+                        } else {
+                            statusBox.classList.add('error');
+                            statusBox.textContent = '✗ ' + data.message;
+                        }
+                    })
+                    .catch(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Request Free SEO Audit';
+                        statusBox.classList.add('error');
+                        statusBox.textContent = '✗ Something went wrong. Please email contact@seoservice.lk directly.';
+                    });
             });
         });
     </script>
