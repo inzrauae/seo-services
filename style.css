@@ -502,6 +502,15 @@ section[id] {
     letter-spacing: -0.03em;
 }
 
+.hero-tagline-si {
+    color: var(--accent-text);
+    max-width: 520px;
+    margin: 0 0 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
 .hero-sub {
     color: var(--text-muted);
     max-width: 500px;
