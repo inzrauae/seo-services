@@ -44,6 +44,29 @@
     <link rel="stylesheet" href="style.css">
     <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 
+    <style>
+        .article-body { max-width: 760px; margin: 0 auto; }
+        .article-body p { color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.75; }
+        .article-body h2 { font-size: 1.75rem; margin: 3rem 0 1rem; line-height: 1.3; }
+        .article-body h2:first-child { margin-top: 0; }
+        .article-body h3 { font-size: 1.2rem; color: var(--accent-text); margin: 2rem 0 0.75rem; }
+        .article-body ul, .article-body ol { color: var(--text-muted); margin: 0 0 1.5rem 1.25rem; padding: 0; line-height: 1.75; }
+        .article-body li { margin-bottom: 0.4rem; }
+        .article-body strong { color: var(--text-main); }
+        .article-body a { color: var(--accent-text); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(212, 175, 55, 0.4); }
+        .article-body a:hover { text-decoration-color: var(--accent-text); }
+        .article-meta-bar { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; max-width: 760px; margin: 0 auto 2rem; font-size: 0.85rem; color: var(--text-muted); }
+        .article-meta-bar .author { color: var(--text-main); font-weight: 600; }
+        .callout { background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: var(--radius-lg); padding: 1.75rem; margin: 0 0 1.75rem; }
+        .geo-example { border: 1px solid var(--glass-border); border-radius: var(--radius-md, 12px); padding: 1.25rem 1.5rem; margin: 0 0 1.5rem; }
+        .geo-example.bad { border-left: 3px solid #e05555; }
+        .geo-example.good { border-left: 3px solid #3fbf7f; }
+        .geo-example .tag { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+        .geo-example.bad .tag { color: #e05555; }
+        .geo-example.good .tag { color: #3fbf7f; }
+        .geo-example p { margin: 0.5rem 0 0; font-style: italic; }
+    </style>
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -93,6 +116,26 @@
                         "@type": "Question",
                         "name": "Does GEO replace the need for SEO?",
                         "acceptedAnswer": { "@type": "Answer", "text": "No. GEO builds on the same technical and entity foundations as SEO — sites with strong technical SEO, clear on-page structure, and established authority are the ones AI engines most often cite, so GEO and SEO should be pursued together." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can you guarantee my brand will be cited by ChatGPT or Google AI Overviews?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No agency controls how OpenAI, Google, or Perplexity choose sources to cite. SEOSERVICE.LK focuses on removing the concrete reasons a model would skip over a brand — unclear entity information, unanswerable content, and missing structured data — which is the part actually within an agency's control." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do you test whether AI engines mention a brand?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SEOSERVICE.LK runs real customer questions through ChatGPT, Perplexity, and Google AI Overviews and records exactly what each engine says, including inaccuracies, to identify the content and entity gaps causing a brand to be skipped." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does GEO take to show results?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Live-retrieval engines like ChatGPT Search and Perplexity can reflect content changes within days since they search the web in real time. A model's built-in training knowledge moves on the provider's release schedule and can take considerably longer to shift." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is GEO worth it for a small local business?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. AI answers tend to surface fewer options than a full page of Google results, so being named as one of the few sources an engine cites can carry more relative weight for a small business than ranking further down a long results page." }
                     }
                 ]
             }
@@ -105,6 +148,7 @@
     <!-- Icon Sprite -->
     <svg style="display:none" aria-hidden="true">
         <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></symbol>
+        <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
         <symbol id="icon-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5Z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8Z"/></symbol>
         <symbol id="icon-network" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></symbol>
         <symbol id="icon-bar-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></symbol>
@@ -134,7 +178,6 @@
                 <a href="/">Home</a>
                 <a href="about">About</a>
                 <a href="services" class="active">Services</a>
-                <a href="locations">Locations</a>
                 <a href="case-studies">Case Studies</a>
                 <a href="pricing">Pricing</a>
                 <a href="blog">Blog</a>
@@ -272,6 +315,55 @@
             </div>
         </section>
 
+        <!-- In-Depth: What GEO Actually Looks Like -->
+        <section class="container section">
+            <div class="article-meta-bar">
+                <span class="pill-tag">GEO Deep Dive</span>
+                <span><svg class="icon"><use href="#icon-clock"/></svg> 9 min read</span>
+                <span>By <span class="author"><a href="about">Buddika S. Weerasekara</a></span></span>
+            </div>
+
+            <div class="article-body">
+                <p>I'll be honest — when clients first ask about "GEO," most of them are really asking one question: <em>"Why did I search for my own company on ChatGPT and it recommended my competitor instead?"</em> That question is usually what brings people to this page, so let's actually answer it instead of just defining the acronym.</p>
+
+                <h2>What "Getting Cited" Actually Looks Like</h2>
+                <p>Most websites aren't written for AI engines to quote — they're written for humans to scroll through, with the actual answer buried three paragraphs deep under a vague introduction. AI models don't scroll. They pull the clearest, most directly-stated answer they can find and attribute it. If your content makes them work for it, they'll usually just quote a competitor who didn't.</p>
+
+                <div class="geo-example bad">
+                    <span class="tag">Before — hard to cite</span>
+                    <p>"At [Company], we pride ourselves on delivering a wide range of solutions tailored to the unique needs of every client, backed by years of combined industry experience and a passion for excellence in everything we do."</p>
+                </div>
+                <div class="geo-example good">
+                    <span class="tag">After — citable</span>
+                    <p>"[Company] provides SEO audits, technical SEO, and local SEO for small businesses in Colombo, with packages starting at Rs. 99,000 for a 10-keyword campaign."</p>
+                </div>
+                <p>Nothing about the second version is more "AI-optimized" in some mysterious technical sense — it's just specific. It names what the company does, who it's for, and what it costs. That specificity is exactly what a model needs to lift a sentence out of your page and hand it to someone as an answer.</p>
+
+                <h2>How AI Engines Actually Decide What to Cite</h2>
+                <p>This part gets glossed over a lot, so here's the honest version, platform by platform:</p>
+                <ul>
+                    <li><strong>ChatGPT Search and Perplexity</strong> run a live web search behind the scenes, then summarize whatever pages that search returns. In practice, that means classic technical SEO — being crawlable, fast, and well-indexed — is still the gate you have to get through before GEO even applies.</li>
+                    <li><strong>Google AI Overviews</strong> draws heavily from pages that already rank well organically and from Google's Knowledge Graph, which is why entity clarity (having Google understand exactly who you are, not just what keywords you use) tends to matter more here than anywhere else.</li>
+                    <li><strong>A model's own training data</strong> (what it "just knows" without searching) is the hardest layer to influence directly and the slowest to change — it updates on the provider's schedule, not ours. We treat this as a long-term brand-authority outcome, not something a single content change fixes overnight.</li>
+                </ul>
+                <p>None of these are magic. They're closer to a very literal-minded, very well-read editor deciding which source to quote — and editors quote the source that answered the question in one clean sentence.</p>
+
+                <h2>Three GEO Myths I Keep Running Into</h2>
+                <p><strong>Myth 1: "Just add more keywords."</strong> Keyword stuffing was already a weak SEO tactic; it does nothing for GEO. Models aren't counting keyword frequency, they're evaluating whether a sentence directly answers a question.</p>
+                <p><strong>Myth 2: "GEO is a completely separate discipline from SEO."</strong> It isn't. A site with broken schema, slow load times, or no crawlable content won't get cited no matter how well the sentences are written, because most AI engines never get far enough to read those sentences. GEO sits on top of solid technical SEO — it doesn't replace it.</p>
+                <p><strong>Myth 3: "Results show up immediately."</strong> Live-retrieval engines like ChatGPT Search can reflect a content change within days. A model's baked-in training knowledge can take months or longer to shift, if it shifts at all before the next model update. We're upfront about which of these two timelines a given piece of work actually affects.</p>
+
+                <h2>What GEO Can't Do — I Won't Pretend Otherwise</h2>
+                <p>No agency can guarantee a citation inside someone else's AI model. We don't control OpenAI's retrieval logic, Google's AI Overview triggers, or Perplexity's source-ranking — the same way no SEO company has ever truly controlled Google's core algorithm. What we can do is remove the reasons a model would skip over you: unclear entity information, unanswerable content, missing structured data, and weak authority signals. That's a real, achievable scope of work, and it's the one we sign up for.</p>
+
+                <h2>A Simple Example From Our Own Process</h2>
+                <p>Part of a GEO audit is genuinely mundane: we sit down and ask ChatGPT, Perplexity, and Google's AI Overview the exact questions a potential customer would ask — "who does SEO in Sri Lanka," "best SEO company Colombo," and so on — and write down what each one says, including when it gets facts wrong or ignores the client entirely. That transcript becomes the brief. If an AI engine confidently describes a client's business incorrectly, that's usually a sign their own "About" page or schema markup never gave it a clean answer to work from in the first place. Fixing that is often less glamorous than it sounds — it's rewriting an About page so it states, in plain sentences, who you are, what you do, and where you operate.</p>
+
+                <h2>Why We Pair GEO With Entity Stacking</h2>
+                <p>Entity stacking — building consistent, structured signals about your brand across your own site, Google Business Profile, and third-party sources — is what gives Google's Knowledge Graph (and by extension, AI Overviews) a confident, unambiguous picture of who you are. GEO without that foundation is like writing a perfectly quotable answer and hoping the model already knows which company you are; entity stacking is what removes the "hoping" part.</p>
+            </div>
+        </section>
+
         <!-- GEO Platform Guides -->
         <section class="container section" style="padding-top: 0;">
             <div class="card">
@@ -345,6 +437,30 @@
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
                     <p>No. GEO builds on the same technical and entity foundations as SEO — sites with strong technical SEO, clear on-page structure, and established authority are the ones AI engines most often cite, so GEO and SEO should be pursued together.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can you guarantee my brand will be cited by ChatGPT or Google AI Overviews?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>No, and we'd be skeptical of anyone who says they can. No agency controls how OpenAI, Google, or Perplexity choose sources. What we can do is remove the concrete reasons a model would skip over you — unclear entity information, unanswerable content, missing schema — which is the part actually within our control.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How do you actually test whether AI engines mention my brand?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>We run the real questions a customer would ask — "best SEO company in Colombo," for example — through ChatGPT, Perplexity, and Google AI Overviews, and record exactly what each one says, including when it gets details wrong. That transcript becomes the basis for the content and entity fixes we prioritize.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How long does GEO take to show results?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>It depends on the engine. Live-retrieval tools like ChatGPT Search and Perplexity can reflect content changes within days, because they search the web in real time. A model's own built-in training knowledge moves on the provider's release schedule and can take considerably longer to shift.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is GEO worth it for a small local business, or only large brands?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>It's arguably more useful for smaller businesses, since AI answers tend to surface fewer options than a full page of Google results — being one of the two or three sources an engine actually names carries more relative weight when the list is short.</p>
                 </details>
             </div>
         </section>
@@ -472,7 +588,7 @@
             onScroll();
             window.addEventListener('scroll', onScroll, { passive: true });
 
-            const revealTargets = document.querySelectorAll('.section-heading, .card, .process-step, .faq-item');
+            const revealTargets = document.querySelectorAll('.section-heading, .card, .process-step, .faq-item, .article-body h2, .geo-example');
             revealTargets.forEach((el, i) => {
                 el.classList.add('reveal');
                 el.style.transitionDelay = `${Math.min(i % 4, 3) * 80}ms`;
