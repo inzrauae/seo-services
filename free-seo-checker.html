@@ -193,6 +193,7 @@
                 <!-- URL Panel -->
                 <div class="seo-tab-panel" id="panelUrl" role="tabpanel" aria-labelledby="tabUrlBtn">
                     <form id="urlForm" novalidate>
+                        <input type="text" name="website_hp" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
                         <div class="form-group">
                             <label for="urlInput">Website URL</label>
                             <input type="text" id="urlInput" name="url" placeholder="https://example.com" autocomplete="url" inputmode="url" aria-describedby="urlInputError">
@@ -201,6 +202,11 @@
                         <div class="form-group">
                             <label for="keywordInputUrl">Target Keyword <span class="optional-label">(optional)</span></label>
                             <input type="text" id="keywordInputUrl" name="keyword" placeholder="e.g. seo services sri lanka" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsappInputUrl">Your WhatsApp Number</label>
+                            <input type="tel" id="whatsappInputUrl" name="whatsapp" placeholder="e.g. +94 77 123 4567" autocomplete="tel" inputmode="tel" aria-describedby="whatsappInputUrlError">
+                            <span id="whatsappInputUrlError" class="error-message" role="alert">Please enter a valid WhatsApp number so we can follow up if needed.</span>
                         </div>
                         <button type="submit" class="btn btn-primary seo-analyze-btn" id="analyzeUrlBtn">
                             <svg class="icon"><use href="#icon-search"/></svg> Analyze Website
@@ -212,6 +218,7 @@
                 <!-- HTML Panel -->
                 <div class="seo-tab-panel" id="panelHtml" role="tabpanel" aria-labelledby="tabHtmlBtn" hidden>
                     <form id="htmlForm" novalidate>
+                        <input type="text" name="website_hp" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
                         <div class="form-group">
                             <label for="keywordInputHtml">Target Keyword <span class="optional-label">(optional)</span></label>
                             <input type="text" id="keywordInputHtml" name="keyword" placeholder="e.g. seo services sri lanka" autocomplete="off">
@@ -220,6 +227,11 @@
                             <label for="htmlInput">Paste HTML Source Code</label>
                             <textarea id="htmlInput" name="html" rows="10" placeholder="Paste the full HTML source of your page here (Ctrl+U or right-click → View Page Source, then copy everything)..." aria-describedby="htmlInputError"></textarea>
                             <span id="htmlInputError" class="error-message" role="alert">Please paste some HTML source code to analyze.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsappInputHtml">Your WhatsApp Number</label>
+                            <input type="tel" id="whatsappInputHtml" name="whatsapp" placeholder="e.g. +94 77 123 4567" autocomplete="tel" inputmode="tel" aria-describedby="whatsappInputHtmlError">
+                            <span id="whatsappInputHtmlError" class="error-message" role="alert">Please enter a valid WhatsApp number so we can follow up if needed.</span>
                         </div>
                         <button type="submit" class="btn btn-primary seo-analyze-btn" id="analyzeHtmlBtn">
                             <svg class="icon"><use href="#icon-code"/></svg> Analyze HTML

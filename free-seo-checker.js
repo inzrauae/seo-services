@@ -62,6 +62,10 @@
     var htmlInputError = document.getElementById('htmlInputError');
     var keywordInputUrl = document.getElementById('keywordInputUrl');
     var keywordInputHtml = document.getElementById('keywordInputHtml');
+    var whatsappInputUrl = document.getElementById('whatsappInputUrl');
+    var whatsappInputUrlError = document.getElementById('whatsappInputUrlError');
+    var whatsappInputHtml = document.getElementById('whatsappInputHtml');
+    var whatsappInputHtmlError = document.getElementById('whatsappInputHtmlError');
 
     var analyzeUrlBtn = document.getElementById('analyzeUrlBtn');
     var analyzeHtmlBtn = document.getElementById('analyzeHtmlBtn');
@@ -109,6 +113,10 @@
         panelUrl.hidden = !urlActive;
         panelHtml.hidden = urlActive;
         hideNotice();
+        whatsappInputUrl.classList.remove('invalid');
+        whatsappInputUrlError.style.display = 'none';
+        whatsappInputHtml.classList.remove('invalid');
+        whatsappInputHtmlError.style.display = 'none';
     }
 
     tabUrlBtn.addEventListener('click', function () { activateTab('url'); });
@@ -152,6 +160,28 @@
         }
     }
 
+    function isValidWhatsapp(raw) {
+        var digits = (raw || '').replace(/[^0-9+]/g, '');
+        return /^\+?[0-9]{7,15}$/.test(digits);
+    }
+
+    // -----------------------------------------------------------------
+    // Lead capture: emails the WhatsApp number + target to contact@seoservice.lk
+    // via a small server-side mail script. Fire-and-forget — never blocks
+    // or fails the on-screen analysis, since that must still run either way.
+    // -----------------------------------------------------------------
+    function sendLeadEmail(whatsapp, mode, urlOrNote, keyword) {
+        var formData = new FormData();
+        formData.append('whatsapp', whatsapp);
+        formData.append('mode', mode);
+        formData.append('url', urlOrNote || '');
+        formData.append('keyword', keyword || '');
+
+        fetch('seo-checker-lead.php', { method: 'POST', body: formData }).catch(function () {
+            // Silently ignore — e.g. running from a local file:// page with no PHP backend.
+        });
+    }
+
     // -----------------------------------------------------------------
     // Form handlers
     // -----------------------------------------------------------------
@@ -160,6 +190,8 @@
         hideNotice();
         urlInput.classList.remove('invalid');
         urlInputError.style.display = 'none';
+        whatsappInputUrl.classList.remove('invalid');
+        whatsappInputUrlError.style.display = 'none';
 
         var parsed = normalizeUrl(urlInput.value);
         if (!parsed) {
@@ -168,6 +200,13 @@
             return;
         }
 
+        if (!isValidWhatsapp(whatsappInputUrl.value)) {
+            whatsappInputUrl.classList.add('invalid');
+            whatsappInputUrlError.style.display = 'block';
+            return;
+        }
+
+        sendLeadEmail(whatsappInputUrl.value.trim(), 'url', parsed.href, keywordInputUrl.value.trim());
         analyzeFromUrl(parsed, keywordInputUrl.value.trim());
     });
 
@@ -176,6 +215,8 @@
         hideNotice();
         htmlInput.classList.remove('invalid');
         htmlInputError.style.display = 'none';
+        whatsappInputHtml.classList.remove('invalid');
+        whatsappInputHtmlError.style.display = 'none';
 
         var html = htmlInput.value;
         if (!html || html.trim().length < 20) {
@@ -184,6 +225,13 @@
             return;
         }
 
+        if (!isValidWhatsapp(whatsappInputHtml.value)) {
+            whatsappInputHtml.classList.add('invalid');
+            whatsappInputHtmlError.style.display = 'block';
+            return;
+        }
+
+        sendLeadEmail(whatsappInputHtml.value.trim(), 'html', '', keywordInputHtml.value.trim());
         analyzeFromHtml(html, keywordInputHtml.value.trim(), null);
     });
 
@@ -197,7 +245,7 @@
         var controller = ('AbortController' in window) ? new AbortController() : null;
         var timer = controller ? setTimeout(function () { controller.abort(); }, FETCH_TIMEOUT_MS) : null;
 
-        fetch(parsedUrl.href, { mode: 'cors', credentials: 'omit', signal: controller ? controller.signal : undefined })
+        fetch(parsedUrl.href, { mode: 'cors', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller ? controller.signal : undefined })
             .then(function (res) {
                 if (timer) clearTimeout(timer);
                 if (!res.ok) {
@@ -844,7 +892,7 @@
     function fetchWithTimeout(url, ms) {
         var controller = ('AbortController' in window) ? new AbortController() : null;
         var timer = controller ? setTimeout(function () { controller.abort(); }, ms) : null;
-        return fetch(url, { method: 'GET', mode: 'cors', credentials: 'omit', signal: controller ? controller.signal : undefined })
+        return fetch(url, { method: 'GET', mode: 'cors', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller ? controller.signal : undefined })
             .then(function (res) { if (timer) clearTimeout(timer); return res; })
             .catch(function (err) { if (timer) clearTimeout(timer); throw err; });
     }
