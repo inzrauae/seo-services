@@ -58,6 +58,18 @@
                 "applicationCategory": "SEO Tool",
                 "operatingSystem": "Any (Web Browser)",
                 "description": "A free, in-browser SEO audit tool that scores your website's technical SEO, on-page SEO, content, images, links, structured data and social tags.",
+                "featureList": [
+                    "Overall SEO score out of 100 across 7 categories",
+                    "Technical SEO checks: HTTPS, robots.txt, sitemap.xml, canonical tags, language and viewport tags",
+                    "On-page SEO checks: title tag length, meta description length, heading structure",
+                    "Content analysis: word count, readability score, keyword frequency and density",
+                    "Image ALT attribute and accessibility checks",
+                    "Internal and external link analysis with basic broken-link detection",
+                    "Structured data detection: JSON-LD, schema.org, Open Graph and Twitter Cards",
+                    "Google SERP snippet preview",
+                    "Optional target-keyword analysis",
+                    "Analyze-by-URL or paste-HTML modes with no data stored"
+                ],
                 "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
                 "provider": {
                     "@type": "Organization",
@@ -65,6 +77,17 @@
                     "url": "https://seoservice.lk/",
                     "parentOrganization": { "@type": "Organization", "name": "Applantics PVT LTD", "url": "https://seoservice.lk" }
                 }
+            },
+            {
+                "@type": "HowTo",
+                "name": "How to Use the Free SEO Checker",
+                "description": "Run a free SEO audit on any webpage in four steps, directly in your browser.",
+                "step": [
+                    { "@type": "HowToStep", "position": 1, "name": "Enter your URL or paste HTML", "text": "Type your website's URL into the Analyze Website URL tab, or switch to the Analyze HTML tab and paste the page's full HTML source code." },
+                    { "@type": "HowToStep", "position": 2, "name": "Add an optional target keyword", "text": "Enter a target keyword to also check how well the page is optimized for that specific phrase." },
+                    { "@type": "HowToStep", "position": 3, "name": "Click Analyze", "text": "The tool fetches and parses the page (or analyzes your pasted HTML) entirely in your browser, with nothing sent to a server." },
+                    { "@type": "HowToStep", "position": 4, "name": "Review your SEO score and fix issues", "text": "Get an instant 0-100 SEO score across seven categories, with every check labeled Passed, Needs Improvement, or Error, plus a plain-English recommendation for each issue." }
+                ]
             },
             {
                 "@type": "FAQPage",
@@ -180,6 +203,7 @@
 
         <!-- Analyzer -->
         <section class="container section seo-tool-section" id="analyzer">
+            <p class="seo-tool-lede">A <strong>free SEO checker</strong> scans a webpage's HTML and scores its search-engine readiness across seven areas — technical SEO, on-page SEO, content, images, links, structured data, and social tags. Enter a URL below, or paste a page's HTML source, for an instant SEO score out of 100 and a plain-English list of what to fix, with no signup required.</p>
             <div class="card seo-tool-card">
                 <div class="seo-tabs" role="tablist" aria-label="Analysis method">
                     <button type="button" class="seo-tab active" id="tabUrlBtn" role="tab" aria-selected="true" aria-controls="panelUrl">
@@ -319,6 +343,88 @@
                 <h2>Need Help Fixing Your SEO Issues?</h2>
                 <p>Get a professional SEO audit and customized SEO strategy from SeoService.lk.</p>
                 <a href="contact" class="btn btn-primary btn-lg">Get Professional SEO Service <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
+            </div>
+        </section>
+
+        <!-- What This Tool Checks -->
+        <section class="container section">
+            <div class="section-heading">
+                <span class="eyebrow">Full Coverage</span>
+                <h2>What Does This Free SEO Checker Analyze?</h2>
+                <p>Every audit scores your page across seven categories used by search engines and AI answer engines alike.</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-sliders"/></svg></div>
+                    <h3 class="card-title">Technical SEO</h3>
+                    <p class="card-text">HTTPS, robots.txt, sitemap.xml, canonical tags, language and viewport tags, and basic page structure. See our <a href="technical-seo">technical SEO services</a> for a deeper fix.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-type"/></svg></div>
+                    <h3 class="card-title">On-Page SEO</h3>
+                    <p class="card-text">Title tag and meta description length, robots meta directives, and H1–H3 heading structure. Learn more about <a href="on-page-seo">on-page SEO</a>.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-file-text"/></svg></div>
+                    <h3 class="card-title">Content SEO</h3>
+                    <p class="card-text">Word count, readability, paragraph structure, and keyword frequency and density. Explore our <a href="seo-content-strategy">content strategy service</a>.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-image"/></svg></div>
+                    <h3 class="card-title">Images</h3>
+                    <p class="card-text">Missing, empty, and present ALT attributes, image title attributes, and overall image usage.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-link-2"/></svg></div>
+                    <h3 class="card-title">Links</h3>
+                    <p class="card-text">Internal vs. external link counts, missing anchor text, and sampled broken-link detection. See our <a href="link-building">link building services</a>.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-code"/></svg></div>
+                    <h3 class="card-title">Schema (Structured Data)</h3>
+                    <p class="card-text">JSON-LD and microdata detection, plus the specific schema.org types found on your page. Related: <a href="brand-entity-optimization">brand entity optimization</a>.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-share-2"/></svg></div>
+                    <h3 class="card-title">Social SEO</h3>
+                    <p class="card-text">Open Graph tags for Facebook/LinkedIn/WhatsApp sharing, and Twitter Card tags for X (Twitter).</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><svg class="icon"><use href="#icon-target"/></svg></div>
+                    <h3 class="card-title">Keyword Analysis</h3>
+                    <p class="card-text">Optional check for keyword usage in your title, meta description, headings, and first paragraph. Pairs well with <a href="keyword-research">keyword research</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="container section">
+            <div class="section-heading">
+                <span class="eyebrow">Simple Process</span>
+                <h2>How the Free SEO Checker Works</h2>
+                <p>Run a complete SEO audit in under a minute, directly in your browser.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <span class="step-number">01</span>
+                    <h3 class="card-title">Enter Your URL or Paste HTML</h3>
+                    <p class="card-text">Type your website's URL, or switch to the Analyze HTML tab and paste the page's full HTML source code.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">02</span>
+                    <h3 class="card-title">Add a Target Keyword (Optional)</h3>
+                    <p class="card-text">Enter a keyword you're targeting to also check how well the page is optimized for that specific phrase.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">03</span>
+                    <h3 class="card-title">Click Analyze</h3>
+                    <p class="card-text">The tool parses the page entirely in your browser — nothing is uploaded or stored on our servers.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">04</span>
+                    <h3 class="card-title">Review Your Score &amp; Fix Issues</h3>
+                    <p class="card-text">Get an instant 0–100 score across seven categories, with a plain-English recommendation for every issue found.</p>
+                </div>
             </div>
         </section>
 
@@ -480,7 +586,7 @@
             onScroll();
             window.addEventListener('scroll', onScroll, { passive: true });
 
-            const revealTargets = Array.from(document.querySelectorAll('.section-heading, .card, .faq-item'))
+            const revealTargets = Array.from(document.querySelectorAll('.section-heading, .card, .process-step, .faq-item'))
                 .filter((el) => !el.closest('#resultsSection'));
             revealTargets.forEach((el, i) => {
                 el.classList.add('reveal');

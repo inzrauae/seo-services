@@ -136,6 +136,27 @@
         seoNotice.textContent = '';
     }
 
+    function showCorsFailureNotice(targetUrl) {
+        seoNotice.textContent = '';
+        seoNotice.className = 'form-status seo-notice error';
+        seoNotice.hidden = false;
+
+        var p = document.createElement('p');
+        p.className = 'seo-notice-text';
+        p.textContent = 'This website does not allow direct browser analysis. Please use the HTML analysis option, or send us your website link on WhatsApp and we’ll check it manually.';
+        seoNotice.appendChild(p);
+
+        var waMessage = 'Hi! I tried to check my website ' + targetUrl + ' with the Free SEO Checker but it couldn’t be analyzed directly. Can you help me with a manual SEO audit?';
+        var waLink = document.createElement('a');
+        waLink.className = 'btn btn-primary btn-sm seo-notice-wa-btn';
+        waLink.href = 'https://wa.me/94778064714?text=' + encodeURIComponent(waMessage);
+        waLink.target = '_blank';
+        waLink.rel = 'noopener';
+        waLink.innerHTML = '<svg class="icon"><use href="#icon-whatsapp"/></svg>';
+        waLink.appendChild(document.createTextNode(' Send via WhatsApp'));
+        seoNotice.appendChild(waLink);
+    }
+
     function setLoading(isLoading, label) {
         seoLoading.hidden = !isLoading;
         if (label) seoLoadingText.textContent = label;
@@ -260,10 +281,7 @@
             .catch(function () {
                 if (timer) clearTimeout(timer);
                 setLoading(false);
-                showNotice(
-                    "This website does not allow direct browser analysis. Please use the HTML analysis option or connect the checker to an API/backend.",
-                    'error'
-                );
+                showCorsFailureNotice(parsedUrl.href);
             });
     }
 

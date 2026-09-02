@@ -5,6 +5,17 @@
 
 .seo-tool-section { padding-top: 2rem; }
 
+.seo-tool-lede {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.seo-tool-lede strong { color: var(--text-main); }
+
 .seo-tool-card { max-width: 780px; margin: 0 auto; }
 
 /* Tabs */
@@ -95,6 +106,17 @@
 
 .seo-notice { margin-top: 1.25rem; }
 .seo-notice[hidden] { display: none; }
+
+.seo-notice-text { margin: 0 0 0.85rem; }
+
+.seo-notice-wa-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    text-decoration: none;
+}
+
+.seo-notice-wa-btn .icon { width: 1.05em; height: 1.05em; }
 
 .seo-notice.warning {
     background: rgba(232, 168, 56, 0.12);
