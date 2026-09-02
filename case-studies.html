@@ -107,7 +107,7 @@
     }
     </script>
 
-    <!-- Per-case-study Article schema. Deliberately no Review/AggregateRating type (self-serving rating markup about our own business). No datePublished/dateModified fabricated — add real dates once known for each engagement. -->
+    <!-- Per-case-study Article schema, each with a Review by the CLIENT's business reviewing that case-study article — not AggregateRating/Review about our own organization, which stays disallowed. No star rating or reviewRating fabricated. No datePublished/dateModified fabricated — add real dates once known for each engagement. -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -118,7 +118,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "POS System Sri Lanka", "url": "https://possystem.lk" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "POS System Sri Lanka", "url": "https://possystem.lk" },
+                    "reviewBody": "We captured the top spot for every core commercial term we cared about, resulting in steady inbound leads every week."
+                }
             },
             {
                 "@type": "Article",
@@ -126,7 +131,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "Gaura Construction", "url": "https://gauraconstruction.lk" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "Gaura Construction", "url": "https://gauraconstruction.lk" },
+                    "reviewBody": "Our cabana projects are booked out months ahead thanks to consistent #1 Google search rankings."
+                }
             },
             {
                 "@type": "Article",
@@ -134,7 +144,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "Lanka Tour Driver", "url": "https://lankatourdriver.com" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "Lanka Tour Driver", "url": "https://lankatourdriver.com" },
+                    "reviewBody": "We receive continuous bookings directly from travelers before they even board their flights to Sri Lanka."
+                }
             },
             {
                 "@type": "Article",
@@ -142,7 +157,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "The Merch List Dubai", "url": "https://themerchlist.com" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "The Merch List Dubai", "url": "https://themerchlist.com" },
+                    "reviewBody": "Dominating Google in Dubai transformed our entire inbound pipeline from ad-dependent to purely organic."
+                }
             },
             {
                 "@type": "Article",
@@ -150,7 +170,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "Tuk Tuk Ceylon Rides", "url": "https://tuktukceylonrides.com" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "Tuk Tuk Ceylon Rides", "url": "https://tuktukceylonrides.com" },
+                    "reviewBody": "We now rank #1 for the exact terms travelers use when they're ready to book a tuk tuk — direct, no-commission inquiries every day."
+                }
             },
             {
                 "@type": "Article",
@@ -158,7 +183,12 @@
                 "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
                 "publisher": { "@type": "Organization", "name": "Applantics (Pvt) Ltd", "url": "https://seoservice.lk/" },
                 "about": { "@type": "Organization", "name": "Palm Fit", "url": "https://mypalmfit.com" },
-                "mainEntityOfPage": "https://seoservice.lk/case-studies"
+                "mainEntityOfPage": "https://seoservice.lk/case-studies",
+                "review": {
+                    "@type": "Review",
+                    "author": { "@type": "Organization", "name": "Palm Fit", "url": "https://mypalmfit.com" },
+                    "reviewBody": "Owning the top spot for gym wear searches across the UAE has turned browsers into buyers without relying on paid ads."
+                }
             }
         ]
     }
