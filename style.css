@@ -1898,7 +1898,7 @@ section[id] {
     flex-shrink: 0;
 }
 
-.contact-info-item h4 {
+.contact-info-item h3 {
     margin: 0 0 0.2rem;
     font-size: 1rem;
 }
