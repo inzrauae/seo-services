@@ -1115,6 +1115,14 @@ section[id] {
     margin-bottom: 1rem;
 }
 
+.testimonial-headline {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: var(--text-main);
+    letter-spacing: -0.01em;
+}
+
 .testimonial-text {
     font-size: 1rem;
     margin-bottom: 1.5rem;
