@@ -1,3 +1,6 @@
+/* picture wrappers stay transparent to flex/grid layout */
+picture{display:contents}
+
 /* Design Tokens — Black & Gold */
 :root {
     --accent: #D4AF37;

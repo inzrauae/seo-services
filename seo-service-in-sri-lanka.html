@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- 301 Redirect to Homepage - Keyword Cannibalization Fix -->
-    <meta http-equiv="refresh" content="0; url=https://seoservice.lk/">
-    <link rel="canonical" href="https://seoservice.lk/">
+    <!-- Retired page. A real 301 to / is served from .htaccess; this noindex is a fallback only. -->
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7Z2CVHRFL"></script>
@@ -66,11 +64,71 @@
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/"
+                ]
+            },
+            {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://seoservice.lk/" },
-                    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://seoservice.lk/blog" },
-                    { "@type": "ListItem", "position": 3, "name": "SEO Service in Sri Lanka", "item": "https://seoservice.lk/seo-service-in-sri-lanka" }
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://seoservice.lk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://seoservice.lk/blog"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "SEO Service in Sri Lanka",
+                        "item": "https://seoservice.lk/seo-service-in-sri-lanka"
+                    }
                 ]
             },
             {
@@ -80,28 +138,97 @@
                 "image": "https://seoservice.lk/seo-service-in-sri-lanka.jpg",
                 "datePublished": "2026-08-28",
                 "dateModified": "2026-08-28",
-                "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
+                "author": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
                 "publisher": {
-                    "@type": "Organization",
-                    "name": "SEOSERVICE.LK",
-                    "url": "https://seoservice.lk",
-                    "parentOrganization": { "@type": "Organization", "name": "Applantics PVT LTD" }
+                    "@id": "https://seoservice.lk/#organization"
                 },
                 "mainEntityOfPage": "https://seoservice.lk/seo-service-in-sri-lanka"
             },
             {
                 "@type": "FAQPage",
                 "mainEntity": [
-                    { "@type": "Question", "name": "What is an SEO service?", "acceptedAnswer": { "@type": "Answer", "text": "An SEO service helps businesses improve their website's visibility in organic search through activities such as technical optimization, keyword research, content optimization, internal linking, authority building, local SEO and performance monitoring." } },
-                    { "@type": "Question", "name": "What SEO services does SEOService.lk provide?", "acceptedAnswer": { "@type": "Answer", "text": "SEOService.lk provides technical SEO, keyword research, on-page SEO, content optimization, internal linking, local SEO, e-commerce SEO, link building, SEO audits and Generative Engine Optimization." } },
-                    { "@type": "Question", "name": "Who leads SEOService.lk?", "acceptedAnswer": { "@type": "Answer", "text": "The SEO practice is led by Buddika S. Weerasekara, who is identified by Applantics as its SEO specialist and director." } },
-                    { "@type": "Question", "name": "Is SEOService.lk part of Applantics?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEO services are provided through Applantics (Pvt) Ltd, which also provides web, software, mobile application and AI development services." } },
-                    { "@type": "Question", "name": "Does SEO work for Sri Lankan businesses?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEO can be highly valuable for businesses targeting Sri Lankan customers because potential customers often use search engines to research products, services and companies." } },
-                    { "@type": "Question", "name": "Can SEO target customers outside Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEO can be structured for international markets using country-specific keyword research, content, technical configuration and market-specific strategies." } },
-                    { "@type": "Question", "name": "How long does SEO take?", "acceptedAnswer": { "@type": "Answer", "text": "The timeframe varies according to competition, website history, authority, technical condition, content and implementation speed. SEO should generally be treated as a long-term growth strategy." } },
-                    { "@type": "Question", "name": "Can an SEO company guarantee #1 on Google?", "acceptedAnswer": { "@type": "Answer", "text": "No responsible SEO provider can control Google's ranking systems or guarantee permanent first position. A professional SEO strategy should focus on sustainable visibility, qualified traffic and business results." } },
-                    { "@type": "Question", "name": "What is the difference between SEO and GEO?", "acceptedAnswer": { "@type": "Answer", "text": "SEO focuses primarily on organic search visibility, while GEO focuses on improving a brand's visibility and potential citation within AI-powered search and answer systems." } },
-                    { "@type": "Question", "name": "Why is technical SEO important?", "acceptedAnswer": { "@type": "Answer", "text": "Technical SEO helps search engines discover, crawl, understand and index important website content. It also addresses areas such as performance, mobile usability, structured data and website architecture." } }
+                    {
+                        "@type": "Question",
+                        "name": "What is an SEO service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "An SEO service helps businesses improve their website's visibility in organic search through activities such as technical optimization, keyword research, content optimization, internal linking, authority building, local SEO and performance monitoring."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What SEO services does SEOService.lk provide?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SEOService.lk provides technical SEO, keyword research, on-page SEO, content optimization, internal linking, local SEO, e-commerce SEO, link building, SEO audits and Generative Engine Optimization."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Who leads SEOService.lk?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The SEO practice is led by Buddika S. Weerasekara, who is identified by Applantics as its SEO specialist and director."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is SEOService.lk part of Applantics?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEO services are provided through Applantics (Pvt) Ltd, which also provides web, software, mobile application and AI development services."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Does SEO work for Sri Lankan businesses?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEO can be highly valuable for businesses targeting Sri Lankan customers because potential customers often use search engines to research products, services and companies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can SEO target customers outside Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEO can be structured for international markets using country-specific keyword research, content, technical configuration and market-specific strategies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does SEO take?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The timeframe varies according to competition, website history, authority, technical condition, content and implementation speed. SEO should generally be treated as a long-term growth strategy."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can an SEO company guarantee #1 on Google?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No responsible SEO provider can control Google's ranking systems or guarantee permanent first position. A professional SEO strategy should focus on sustainable visibility, qualified traffic and business results."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the difference between SEO and GEO?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SEO focuses primarily on organic search visibility, while GEO focuses on improving a brand's visibility and potential citation within AI-powered search and answer systems."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is technical SEO important?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Technical SEO helps search engines discover, crawl, understand and index important website content. It also addresses areas such as performance, mobile usability, structured data and website architecture."
+                        }
+                    }
                 ]
             }
         ]
@@ -179,7 +306,7 @@
             </div>
 
             <figure class="article-figure">
-                <img src="seo-service-in-sri-lanka.jpg" alt="SEO service in Sri Lanka — professional SEO services by SEOService.lk, powered by Applantics" width="1408" height="768" loading="eager">
+                <picture><source srcset="seo-service-in-sri-lanka.webp" type="image/webp"><img src="seo-service-in-sri-lanka.jpg" alt="SEO service in Sri Lanka — professional SEO services by SEOService.lk, powered by Applantics" width="1408" height="768" fetchpriority="high" decoding="async" loading="eager"></picture>
                 <figcaption>SEOService.lk by Applantics (Pvt) Ltd — professional SEO &amp; GEO services in Sri Lanka.</figcaption>
             </figure>
 
@@ -423,7 +550,7 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <a href="about">About Us</a>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
@@ -433,7 +560,7 @@
                 <a href="contact">Contact Us</a>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -446,7 +573,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -458,7 +585,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>

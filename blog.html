@@ -20,6 +20,7 @@
     <meta name="description" content="Read expert SEO insights, Generative Engine Optimization (GEO) guides, entity stacking strategies, and technical search tutorials from Buddika S. Weerasekara.">
     <meta name="keywords" content="seo blog, generative engine optimization guides, entity stacking tutorial, local seo sri lanka guide, technical seo articles">
     <link rel="canonical" href="https://seoservice.lk/blog">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="SEO & AI Search Insights Blog | SEOSERVICE.LK">
     <meta property="og:description" content="Read expert SEO insights, Generative Engine Optimization (GEO) guides, entity stacking strategies, and technical search tutorials from Buddika S. Weerasekara.">
     <meta property="og:type" content="blog">
@@ -42,38 +43,146 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://seoservice.lk/"
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/"
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://seoservice.lk/blog"
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://seoservice.lk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://seoservice.lk/blog"
+                    }
+                ]
+            },
+            {
+                "@type": "Blog",
+                "@id": "https://seoservice.lk/blog#blog",
+                "name": "SEOSERVICE.LK Blog",
+                "description": "Practical guides on SEO, technical optimisation and Generative Engine Optimization for the Sri Lankan market.",
+                "url": "https://seoservice.lk/blog",
+                "inLanguage": "en",
+                "publisher": {
+                    "@id": "https://seoservice.lk/#organization"
+                },
+                "author": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "blogPost": [
+                    {
+                        "@type": "BlogPosting",
+                        "@id": "https://seoservice.lk/get-cited-by-ai-search#article",
+                        "headline": "How to Get Your Business Cited by ChatGPT and Perplexity",
+                        "description": "Ranking on Google and being quoted inside an AI answer are different problems. What separates the sites that get cited from the ones that get ignored.",
+                        "url": "https://seoservice.lk/get-cited-by-ai-search",
+                        "datePublished": "2026-09-03",
+                        "dateModified": "2026-09-03",
+                        "author": {
+                            "@id": "https://seoservice.lk/#founder"
+                        },
+                        "publisher": {
+                            "@id": "https://seoservice.lk/#organization"
+                        }
+                    },
+                    {
+                        "@type": "BlogPosting",
+                        "@id": "https://seoservice.lk/llms-txt-guide#article",
+                        "headline": "llms.txt Explained: What It Is and How to Write One",
+                        "description": "What the file does, what belongs in it, how it differs from robots.txt, and a working example you can copy.",
+                        "url": "https://seoservice.lk/llms-txt-guide",
+                        "datePublished": "2026-09-03",
+                        "dateModified": "2026-09-03",
+                        "author": {
+                            "@id": "https://seoservice.lk/#founder"
+                        },
+                        "publisher": {
+                            "@id": "https://seoservice.lk/#organization"
+                        }
+                    },
+                    {
+                        "@type": "BlogPosting",
+                        "@id": "https://seoservice.lk/sinhala-tamil-english-seo#article",
+                        "headline": "Sinhala, Tamil or English: Choosing Your SEO Language in Sri Lanka",
+                        "description": "Most Sri Lankan business websites are English-only, and for many that is the wrong call. How to choose and implement it correctly.",
+                        "url": "https://seoservice.lk/sinhala-tamil-english-seo",
+                        "datePublished": "2026-09-03",
+                        "dateModified": "2026-09-03",
+                        "author": {
+                            "@id": "https://seoservice.lk/#founder"
+                        },
+                        "publisher": {
+                            "@id": "https://seoservice.lk/#organization"
+                        }
+                    },
+                    {
+                        "@type": "BlogPosting",
+                        "@id": "https://seoservice.lk/schema-markup-guide#article",
+                        "headline": "Schema Markup That Actually Does Something",
+                        "description": "Which structured data types earn rich results, which build entity recognition, and which are just bytes.",
+                        "url": "https://seoservice.lk/schema-markup-guide",
+                        "datePublished": "2026-09-03",
+                        "dateModified": "2026-09-03",
+                        "author": {
+                            "@id": "https://seoservice.lk/#founder"
+                        },
+                        "publisher": {
+                            "@id": "https://seoservice.lk/#organization"
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Blog",
-        "name": "SEOSERVICE.LK SEO & GEO Insights",
-        "description": "Actionable search engine optimization tutorials, AI search breakdowns, and ranking case studies.",
-        "publisher": {
-            "@type": "Organization",
-            "name": "SEOSERVICE.LK",
-            "founder": {
-                "@type": "Person",
-                "name": "Buddika S. Weerasekara"
-            }
-        }
     }
     </script>
 </head>
@@ -139,71 +248,114 @@
 
         <!-- Blog Grid -->
         <section class="container section">
+                        <div class="section-heading" style="margin-bottom: 2rem;">
+                <span class="eyebrow">Latest Guides</span>
+                <h2>Practical guides on SEO and AI search</h2>
+            </div>
             <div class="blog-grid">
-                <!-- Featured Article -->
                 <article class="card blog-card">
-                    <img src="seo-sri-lanka.jpg" alt="SEO Sri Lanka — expert SEO services by SEOService.lk, powered by Applantics" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy">
+                    <div class="blog-meta">
+                        <span class="pill-tag">Generative Engine Optimization</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 10 min read</span>
+                    </div>
+                    <h2 class="card-title">
+                        <a href="get-cited-by-ai-search">How to Get Your Business Cited by ChatGPT and Perplexity</a>
+                    </h2>
+                    <p class="card-text">
+                        Ranking on Google and being quoted inside an AI answer are different problems. What separates the sites that get cited from the ones that get ignored.
+                    </p>
+                    <a href="get-cited-by-ai-search" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
+                </article>
+                <article class="card blog-card">
+                    <div class="blog-meta">
+                        <span class="pill-tag">AI Search</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 8 min read</span>
+                    </div>
+                    <h2 class="card-title">
+                        <a href="llms-txt-guide">llms.txt Explained: What It Is and How to Write One</a>
+                    </h2>
+                    <p class="card-text">
+                        What the file does, what belongs in it, how it differs from robots.txt, and a working example you can copy. Plus the one mistake that makes it counterproductive.
+                    </p>
+                    <a href="llms-txt-guide" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
+                </article>
+                <article class="card blog-card">
+                    <div class="blog-meta">
+                        <span class="pill-tag">Sri Lanka SEO</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 9 min read</span>
+                    </div>
+                    <h2 class="card-title">
+                        <a href="sinhala-tamil-english-seo">Sinhala, Tamil or English: Choosing Your SEO Language</a>
+                    </h2>
+                    <p class="card-text">
+                        Most Sri Lankan business websites are English-only, and for many that is the wrong call. How to choose, and how to implement it without duplicate content problems.
+                    </p>
+                    <a href="sinhala-tamil-english-seo" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
+                </article>
+                <article class="card blog-card">
+                    <div class="blog-meta">
+                        <span class="pill-tag">Technical SEO</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 9 min read</span>
+                    </div>
+                    <h2 class="card-title">
+                        <a href="schema-markup-guide">Schema Markup That Actually Does Something</a>
+                    </h2>
+                    <p class="card-text">
+                        Most structured data on business websites is decorative. Which types earn rich results, which build entity recognition, and which are just bytes.
+                    </p>
+                    <a href="schema-markup-guide" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
+                </article>
+            </div>
+
+            <div class="section-heading" style="margin: 3.5rem 0 2rem;">
+                <span class="eyebrow">Long-Form References</span>
+                <h2>Reference pages on the Sri Lankan market</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="card blog-card">
+                    <picture><source srcset="seo-sri-lanka.webp" type="image/webp"><img src="seo-sri-lanka.jpg" alt="SEO Sri Lanka: Expert SEO Services and SEO Company" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy"></picture>
                     <div class="blog-meta">
                         <span class="pill-tag">SEO Strategy</span>
                         <span><svg class="icon"><use href="#icon-clock"/></svg> 14 min read</span>
                     </div>
                     <h2 class="card-title">
-                        <a href="seo-sri-lanka">SEO Sri Lanka: Expert SEO Services &amp; SEO Company — SEOSERVICE.LK</a>
+                        <a href="seo-sri-lanka">SEO Sri Lanka: Expert SEO Services &amp; SEO Company</a>
                     </h2>
                     <p class="card-text">
-                        What "SEO Sri Lanka" really means, why it matters for local businesses, and how to evaluate an SEO company in Sri Lanka — with verifiable #1 ranking case studies, not just promises.
+                        What SEO in Sri Lanka really involves, why it matters for local businesses, and how to evaluate an SEO company here, with verifiable ranking case studies rather than promises.
                     </p>
                     <a href="seo-sri-lanka" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
                 </article>
-
-                <!-- Article: Best SEO Company in Sri Lanka -->
                 <article class="card blog-card">
-                    <img src="best-seo-company-in-sri-lanka.jpg" alt="Best SEO company in Sri Lanka — SEOService.lk by Applantics" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy">
+                    <picture><source srcset="best-seo-company-in-sri-lanka.webp" type="image/webp"><img src="best-seo-company-in-sri-lanka.jpg" alt="Best SEO Company in Sri Lanka (2026)" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy"></picture>
                     <div class="blog-meta">
-                        <span class="pill-tag">SEO Strategy</span>
-                        <span><svg class="icon"><use href="#icon-clock"/></svg> 14 min read</span>
+                        <span class="pill-tag">Comparison</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 12 min read</span>
                     </div>
                     <h2 class="card-title">
-                        <a href="best-seo-company-in-sri-lanka">Best SEO Company in Sri Lanka: SEOService.lk by Applantics (Pvt) Ltd</a>
+                        <a href="best-seo-company-in-sri-lanka">Best SEO Company in Sri Lanka (2026)</a>
                     </h2>
                     <p class="card-text">
-                        What to actually look for when choosing an SEO partner in Sri Lanka — technical SEO, content strategy, local search, link building and Generative Engine Optimization, explained by Buddika S. Weerasekara.
+                        How to judge an SEO company on evidence rather than claims, and why SEOSERVICE.LK is regarded as one of the strongest options in the Sri Lankan market.
                     </p>
                     <a href="best-seo-company-in-sri-lanka" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
                 </article>
-
-                <!-- Article: SEO Consultant Sri Lanka -->
                 <article class="card blog-card">
-                    <img src="seo-consultant-sri-lanka.jpg" alt="SEO consultant Sri Lanka — Buddika S. Weerasekara, SEOService.lk by Applantics" width="1324" height="800" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy">
+                    <picture><source srcset="seo-consultant-sri-lanka.webp" type="image/webp"><img src="seo-consultant-sri-lanka.jpg" alt="SEO Consultant Sri Lanka: Buddika S. Weerasekara" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy"></picture>
                     <div class="blog-meta">
-                        <span class="pill-tag">SEO Strategy</span>
-                        <span><svg class="icon"><use href="#icon-clock"/></svg> 15 min read</span>
+                        <span class="pill-tag">Consulting</span>
+                        <span><svg class="icon"><use href="#icon-clock"/></svg> 13 min read</span>
                     </div>
                     <h2 class="card-title">
                         <a href="seo-consultant-sri-lanka">SEO Consultant Sri Lanka: Buddika S. Weerasekara</a>
                     </h2>
                     <p class="card-text">
-                        What to actually look for in an SEO consultant — technical SEO, search intent, content strategy, local search, link building and Generative Engine Optimization, explained by Buddika S. Weerasekara.
+                        The consulting profile behind SEOSERVICE.LK: background, methodology, and how a senior consultant differs from an agency account team.
                     </p>
                     <a href="seo-consultant-sri-lanka" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
                 </article>
-
-                <!-- Article: SEO Service in Sri Lanka -->
-                <article class="card blog-card">
-                    <img src="seo-service-in-sri-lanka.jpg" alt="SEO service in Sri Lanka — professional SEO services by SEOService.lk, powered by Applantics" width="1408" height="768" style="border-radius: var(--radius-sm); margin-bottom: 1rem; aspect-ratio: 16/9; object-fit: cover;" loading="lazy">
-                    <div class="blog-meta">
-                        <span class="pill-tag">SEO Strategy</span>
-                        <span><svg class="icon"><use href="#icon-clock"/></svg> 16 min read</span>
-                    </div>
-                    <h2 class="card-title">
-                        <a href="/">SEO Service in Sri Lanka: Professional SEO Services by SEOService.lk</a>
-                    </h2>
-                    <p class="card-text">
-                        Technical SEO, keyword research, content strategy, local SEO, link building and Generative Engine Optimization — a complete SEO service for Sri Lankan and international businesses.
-                    </p>
-                    <a href="/" class="read-more-link">Read Guide <svg class="icon"><use href="#icon-arrow-right"/></svg></a>
-                </article>
             </div>
+
         </section>
 
         <!-- CTA Callout -->
@@ -234,7 +386,7 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <a href="about">About Us</a>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
@@ -244,7 +396,7 @@
                 <a href="contact">Contact Us</a>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -257,7 +409,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -269,7 +421,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>

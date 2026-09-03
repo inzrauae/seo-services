@@ -20,9 +20,10 @@
     <meta name="description" content="Local SEO services in Sri Lanka: Google Business Profile optimization, Map Pack rankings, and citation building by SEOSERVICE.LK, led by Buddika S. Weerasekara.">
     <meta name="keywords" content="local seo sri lanka, local seo services colombo, google business profile optimization sri lanka, google map pack sri lanka, local seo kandy galle jaffna">
     <link rel="canonical" href="https://seoservice.lk/local-seo">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <meta name="geo.region" content="LK-11">
-    <meta name="geo.placename" content="Colombo">
+    <meta name="geo.placename" content="Narammala">
     <meta name="geo.position" content="6.9271;79.8612">
     <meta name="ICBM" content="6.9271, 79.8612">
 
@@ -49,11 +50,71 @@
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/"
+                ]
+            },
+            {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://seoservice.lk/" },
-                    { "@type": "ListItem", "position": 2, "name": "SEO Services", "item": "https://seoservice.lk/services" },
-                    { "@type": "ListItem", "position": 3, "name": "Local SEO", "item": "https://seoservice.lk/local-seo" }
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://seoservice.lk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "SEO Services",
+                        "item": "https://seoservice.lk/services"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Local SEO",
+                        "item": "https://seoservice.lk/local-seo"
+                    }
                 ]
             },
             {
@@ -62,13 +123,12 @@
                 "name": "Local SEO Services Sri Lanka",
                 "description": "Local SEO services covering Google Business Profile optimization, Local Map Pack rankings, and citation building for businesses across Colombo and Sri Lanka.",
                 "provider": {
-                    "@type": "ProfessionalService",
-                    "name": "SEOSERVICE.LK",
-                    "url": "https://seoservice.lk",
-                    "parentOrganization": { "@type": "Organization", "name": "Applantics PVT LTD" },
-                    "founder": { "@id": "https://seoservice.lk/#founder" }
+                    "@id": "https://seoservice.lk/#organization"
                 },
-                "areaServed": { "@type": "Country", "name": "Sri Lanka" },
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
                 "url": "https://seoservice.lk/local-seo"
             },
             {
@@ -77,22 +137,34 @@
                     {
                         "@type": "Question",
                         "name": "What is local SEO?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Local SEO is the practice of optimizing a business's online presence so it appears prominently in local search results and Google's Map Pack for nearby customers — covering Google Business Profile optimization, local citations, reviews, and geo-targeted content." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Local SEO is the practice of optimizing a business's online presence so it appears prominently in local search results and Google's Map Pack for nearby customers — covering Google Business Profile optimization, local citations, reviews, and geo-targeted content."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "How do I rank in Google's local 3-pack in Sri Lanka?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Ranking in Google's local 3-pack requires a fully optimized Google Business Profile, consistent NAP (name, address, phone) citations across the web, positive review velocity, and geo-relevant on-site content — all weighted by Google's proximity, relevance, and prominence signals." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ranking in Google's local 3-pack requires a fully optimized Google Business Profile, consistent NAP (name, address, phone) citations across the web, positive review velocity, and geo-relevant on-site content — all weighted by Google's proximity, relevance, and prominence signals."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "Does local SEO work for businesses outside Colombo?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEOSERVICE.LK builds local SEO campaigns for businesses across Sri Lanka, including Kandy, Galle, Jaffna, and other districts, using geo-targeted landing pages and localized Google Business Profile optimization." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEOSERVICE.LK builds local SEO campaigns for businesses across Sri Lanka, including Kandy, Galle, Jaffna, and other districts, using geo-targeted landing pages and localized Google Business Profile optimization."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "How important are Google reviews for local ranking?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Google reviews are a major local ranking signal, affecting both visibility in the Map Pack and click-through rate. Review count, recency, rating, and owner responses all factor into how Google ranks a business locally." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Google reviews are a major local ranking signal, affecting both visibility in the Map Pack and click-through rate. Review count, recency, rating, and owner responses all factor into how Google ranks a business locally."
+                        }
                     }
                 ]
             }
@@ -297,6 +369,24 @@
             </div>
         </section>
 
+                <!-- Who delivers this work -->
+        <section class="container section" style="padding-top: 0; max-width: 820px;">
+            <div class="card">
+                <span class="eyebrow" style="margin-bottom: 1rem;">Who Delivers This</span>
+                <h2 style="margin-bottom: 1rem;">Led personally, not handed to a junior</h2>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">
+                    Local SEO at SEOSERVICE.LK is planned and reviewed by <a href="seo-consultant-sri-lanka">Buddika S. Weerasekara</a>, who founded the practice
+                    under Applantics (Pvt) Ltd. If you are weighing up providers, it is worth reading
+                    <a href="seo-specialist-in-sri-lanka">what an SEO specialist in Sri Lanka actually does</a>, and <a href="best-seo-company-in-sri-lanka">how we compare to other SEO companies here</a>.
+                </p>
+                <p style="color: var(--text-muted); margin-bottom: 0;">
+                    For background on <a href="seo-sri-lanka">how SEO works in the Sri Lankan market</a>, start with our overview. To see the approach applied end to end,
+                    look through <a href="case-studies">documented client results</a>, or run your own site through the
+                    <a href="free-seo-checker">free SEO checker</a> before you talk to anyone.
+                </p>
+            </div>
+        </section>
+
         <!-- FAQ -->
         <section class="container section" style="max-width: 820px;">
             <div class="section-heading">
@@ -359,7 +449,7 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <a href="about">About Us</a>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
@@ -369,7 +459,7 @@
                 <a href="contact">Contact Us</a>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -382,7 +472,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -394,7 +484,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>

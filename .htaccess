@@ -1,6 +1,10 @@
 RewriteEngine On
 RewriteBase /
 
+# Retired page: consolidated into the homepage to resolve keyword cannibalization.
+# Served as a real 301 so link equity passes (replaces the old meta-refresh + noindex + canonical combination).
+RewriteRule ^seo-service-in-sri-lanka/?$ / [R=301,L]
+
 # Redirect /index.html to the root (avoid duplicate content)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html[\s?] [NC]
 RewriteRule ^index\.html$ / [R=301,L]
@@ -13,3 +17,30 @@ RewriteRule ^ /%1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^([^.]+)$ $1.html [L]
+
+# ---- Compression ----
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript text/javascript
+  AddOutputFilterByType DEFLATE application/json application/ld+json
+  AddOutputFilterByType DEFLATE image/svg+xml application/xml
+</IfModule>
+
+# ---- Browser caching ----
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg               "access plus 1 year"
+  ExpiresByType image/png                "access plus 1 year"
+  ExpiresByType image/webp               "access plus 1 year"
+  ExpiresByType image/svg+xml            "access plus 1 year"
+  ExpiresByType image/x-icon             "access plus 1 year"
+  ExpiresByType text/css                 "access plus 1 month"
+  ExpiresByType text/javascript          "access plus 1 month"
+  ExpiresByType application/javascript   "access plus 1 month"
+  ExpiresByType text/html                "access plus 1 hour"
+</IfModule>
+
+# ---- Correct MIME type for llms.txt ----
+<Files "llms.txt">
+  ForceType text/plain
+</Files>
