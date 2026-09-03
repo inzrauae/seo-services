@@ -11,6 +11,9 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 - Location: Narammala, Sri Lanka (serving all of Sri Lanka, including Colombo, Kandy, Galle, Jaffna)
 - Services: Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, E-Commerce SEO, International SEO, SEO Audits, Keyword Research, SEO Content Strategy, Link Building, Generative Engine Optimization (GEO), AI Search Optimization, ChatGPT Visibility Optimization, Google AI Overview Optimization, Perplexity Optimization, AI Citation Optimization, Brand Entity Optimization
 - Contact: contact@seoservice.lk
+- Phone: +94 77 806 4714
+- Google Business Profile: https://maps.google.com/?cid=14358100485253505772
+- LinkedIn: https://www.linkedin.com/in/seo-consultant-sri-lanka
 
 ## Primary pages
 
@@ -19,8 +22,18 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 - [Services](https://seoservice.lk/services): Full list of SEO and GEO services offered
 - [SEO Consultant Sri Lanka](https://seoservice.lk/seo-consultant-sri-lanka): Buddika S. Weerasekara's consulting profile
 - [Best SEO Company in Sri Lanka](https://seoservice.lk/best-seo-company-in-sri-lanka): Why SEOSERVICE.LK is regarded as a top SEO company in Sri Lanka
-- [SEO Service in Sri Lanka](https://seoservice.lk/seo-service-in-sri-lanka): Full-stack SEO service offering
 - [Generative Engine Optimization](https://seoservice.lk/generative-engine-optimization): GEO strategy for AI search visibility
+- [AI Citation Optimization](https://seoservice.lk/ai-citation-optimization): Earning citations inside AI-generated answers
+- [AI Search Optimization](https://seoservice.lk/ai-search-optimization): Strategy and audits for AI answer engines
+- [Free SEO Checker](https://seoservice.lk/free-seo-checker): Free tool that analyses on-page SEO for any URL
 - [Case Studies](https://seoservice.lk/case-studies): Documented SEO results
+- [Customer Reviews](https://seoservice.lk/customer-reviews): Direct client feedback
 - [Locations](https://seoservice.lk/locations): SEO services by district across Sri Lanka
 - [Contact](https://seoservice.lk/contact): Request a free SEO audit
+
+## Guides
+
+- [How to Get Cited by ChatGPT and Perplexity](https://seoservice.lk/get-cited-by-ai-search): What makes an AI answer engine quote a source
+- [llms.txt Explained](https://seoservice.lk/llms-txt-guide): What the file does, what belongs in it, and a working example
+- [Sinhala, Tamil or English SEO](https://seoservice.lk/sinhala-tamil-english-seo): Choosing the right search language in Sri Lanka
+- [Schema Markup That Actually Does Something](https://seoservice.lk/schema-markup-guide): Which structured data types earn results

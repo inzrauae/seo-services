@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7Z2CVHRFL"></script>
     <script>
@@ -10,21 +12,19 @@
 
       gtag('config', 'G-P7Z2CVHRFL');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <title>About Us | SEO & GEO Specialist Sri Lanka | SEOSERVICE.LK</title>
     <meta name="description" content="Learn about SEOSERVICE.LK, led by Buddika S. Weerasekara — SEO & Generative Engine Optimization specialist under Applantics (Pvt) Ltd.">
-    <meta name="keywords" content="about seoservice.lk, buddhika s weerasekara, seo specialist sri lanka, seo expert colombo, applantics pvt ltd, generative engine optimization sri lanka, best seo company sri lanka">
     <link rel="canonical" href="https://seoservice.lk/about">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     
     <meta name="geo.region" content="LK-11">
-    <meta name="geo.placename" content="Colombo">
-    <meta name="geo.position" content="6.9271;79.8612">
-    <meta name="ICBM" content="6.9271, 79.8612">
+    <meta name="geo.placename" content="Narammala">
+    <meta name="geo.position" content="7.4339211;80.2161737">
+    <meta name="ICBM" content="7.4339211, 80.2161737">
 
     <meta property="og:title" content="About Us | #1 SEO Specialist &amp; Agency Sri Lanka | SEOSERVICE.LK">
     <meta property="og:description" content="Learn about SEOSERVICE.LK and top SEO &amp; Generative Engine Optimization expert Buddika S. Weerasekara under Applantics PVT LTD.">
@@ -38,11 +38,12 @@
     <meta name="twitter:image" content="https://seoservice.lk/founder-office.jpg">
 
     <!-- Modern geometric sans-serif -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" href="founder-office.webp" fetchpriority="high">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.min.css?v=20260903" as="style">
+
+    <link rel="stylesheet" href="style.min.css?v=20260903">
     <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 
     <!-- Schema.org Knowledge Graph for Founder & About Page -->
@@ -50,6 +51,58 @@
     {
         "@context": "https://schema.org",
         "@graph": [
+            {
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/",
+                    "https://maps.google.com/?cid=14358100485253505772"
+                ],
+                "hasMap": "https://maps.google.com/?cid=14358100485253505772",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 7.4339211,
+                    "longitude": 80.2161737
+                }
+            },
             {
                 "@type": "BreadcrumbList",
                 "@id": "https://seoservice.lk/about#breadcrumb",
@@ -92,12 +145,7 @@
                 "image": "https://seoservice.lk/founder-office.jpg",
                 "jobTitle": "Founder & CEO, Applantics PVT LTD",
                 "worksFor": {
-                    "@type": "Organization",
-                    "name": "SEOSERVICE.LK",
-                    "parentOrganization": {
-                        "@type": "Organization",
-                        "name": "Applantics PVT LTD"
-                    }
+                    "@id": "https://seoservice.lk/#organization"
                 },
                 "knowsAbout": [
                     "Search Engine Optimization (SEO)",
@@ -117,6 +165,67 @@
                 "sameAs": [
                     "https://www.linkedin.com/in/seo-consultant-sri-lanka",
                     "https://www.facebook.com/buddika.suresh/"
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Is Applantics (Pvt) Ltd the same company as SEOSERVICE.LK?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEOSERVICE.LK is the SEO and Generative Engine Optimization practice operated by Applantics (Pvt) Ltd, a registered Sri Lankan company based in Narammala. The two names describe the same team and legal entity, not a franchise or reseller relationship, and every engagement is delivered directly by that team."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes Buddika S. Weerasekara qualified to lead SEO campaigns?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Certifications held across Google, SEMrush, Meta, HubSpot and Moz back the work, but the more relevant evidence is verifiable: #1 rankings currently held across competitive verticals, documented in the case studies, with real ranking and traffic data rather than self-reported claims."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I verify the results and rankings you claim?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, that's the point of publishing them. The case studies page documents live positions with dates and search terms rather than screenshots that could be staged, and clients receive monthly reporting against the same ranking and traffic data used to compile those results."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you subcontract work to freelancers or junior staff?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. Every plan describes direct access to a senior strategist rather than an account manager relaying instructions to outsourced writers or link farms, which is also why capacity is limited: the team only takes on as many active engagements as it can execute personally."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Applantics over a larger Colombo agency?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Size cuts both ways. A larger agency spreads senior attention across dozens of accounts; a smaller, specialist practice puts the founder's own methodology directly on your campaign. That trade-off is real, which is why this page publishes verifiable rankings instead of asking you to take agency size as a proxy for quality."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is the \"100% Google-safe\" claim actually meaningful, or just marketing language?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It rules out a specific set of tactics: private blog networks, automated link farms, and any shortcut that trades short-term ranking gains for future penalty risk. Every technique used is built to survive Google's core algorithm updates rather than exploit a gap that eventually closes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How is Generative Engine Optimization different from what other SEO agencies in Sri Lanka offer?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most Sri Lankan agencies still sell SEO as ranking a link on a results page. GEO, built into the Growth and Enterprise packages here, specifically targets being the source an AI engine quotes inside ChatGPT, Google AI Overviews or Perplexity, which depends on entity clarity as much as classic ranking factors."
+                        }
+                    }
                 ]
             }
         ]
@@ -240,7 +349,7 @@
 
                 <div class="hero-media hero-media--framed">
                     <div class="hero-photo-glow" aria-hidden="true"></div>
-                    <img src="founder-office.jpg" alt="Buddika S. Weerasekara, Founder &amp; CEO of Applantics PVT LTD, analyzing SEO performance dashboards" class="hero-photo hero-photo-framed" width="570" height="700" loading="lazy" decoding="async">
+                    <picture><source srcset="founder-office.webp" type="image/webp"><img src="founder-office.jpg" alt="Buddika S. Weerasekara, Founder &amp; CEO of Applantics PVT LTD, analyzing SEO performance dashboards" class="hero-photo hero-photo-framed" width="570" height="700" fetchpriority="high" decoding="async" loading="eager"></picture>
                     <span class="photo-badge"><svg class="icon"><use href="#icon-award"/></svg> Founder &amp; CEO</span>
                 </div>
             </div>
@@ -249,11 +358,11 @@
         <!-- Trust Bar -->
         <section class="trust-bar">
             <div class="container trust-bar-inner">
-                <img src="logo-semrush.png" alt="SEMrush Certified" class="trust-logo" width="130" height="30" loading="lazy" decoding="async">
-                <img src="logo-google-partner.png" alt="Google Partner" class="trust-logo" width="120" height="30" loading="lazy" decoding="async">
-                <img src="logo-meta-partner.png" alt="Meta Business Partner" class="trust-logo" width="120" height="30" loading="lazy" decoding="async">
-                <img src="logo-hubspot.png" alt="HubSpot Certified Partner" class="trust-logo" width="110" height="30" loading="lazy" decoding="async">
-                <img src="logo-moz.png" alt="Moz Academy" class="trust-logo" width="90" height="30" loading="lazy" decoding="async">
+                <picture><source srcset="logo-semrush.webp" type="image/webp"><img src="logo-semrush.png" alt="SEMrush Certified" class="trust-logo" width="130" height="30" loading="lazy" decoding="async"></picture>
+                <picture><source srcset="logo-google-partner.webp" type="image/webp"><img src="logo-google-partner.png" alt="Google Partner" class="trust-logo" width="120" height="30" loading="lazy" decoding="async"></picture>
+                <picture><source srcset="logo-meta-partner.webp" type="image/webp"><img src="logo-meta-partner.png" alt="Meta Business Partner" class="trust-logo" width="120" height="30" loading="lazy" decoding="async"></picture>
+                <picture><source srcset="logo-hubspot.webp" type="image/webp"><img src="logo-hubspot.png" alt="HubSpot Certified Partner" class="trust-logo" width="110" height="30" loading="lazy" decoding="async"></picture>
+                <picture><source srcset="logo-moz.webp" type="image/webp"><img src="logo-moz.png" alt="Moz Academy" class="trust-logo" width="90" height="30" loading="lazy" decoding="async"></picture>
             </div>
         </section>
 
@@ -319,6 +428,122 @@
             </div>
         </section>
 
+        <!-- Entity explainer -->
+        <section class="container section">
+            <div class="section-heading" style="margin-bottom: 1.75rem;">
+                <span class="eyebrow">Who's Actually Behind This</span>
+                <h2>SEOSERVICE.LK and Applantics: How the Two Names Fit Together</h2>
+            </div>
+            <div style="max-width: 760px; margin: 0 auto;">
+                <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
+                    <strong>SEOSERVICE.LK</strong> is the SEO and Generative Engine Optimization practice operated by
+                    <strong>Applantics (Pvt) Ltd</strong>, a registered Sri Lankan company based in Narammala. The two
+                    names describe the same team and the same legal entity &mdash; not a franchise, a white-label
+                    reseller, or a marketing name detached from who actually does the work.
+                </p>
+                <p style="color: var(--text-muted); margin-bottom: 0;">
+                    That matters more than it might seem. A lot of agency-shaped websites sit in front of a rotating
+                    cast of subcontractors with no single accountable entity behind them. Here, the company registered
+                    with the results is the same one <a href="seo-consultant-sri-lanka">Buddika S. Weerasekara</a>
+                    leads directly, which is also why every plan on the <a href="pricing">pricing page</a> includes
+                    direct strategist access rather than an account manager relaying instructions elsewhere.
+                </p>
+            </div>
+        </section>
+
+        <!-- Is this the right fit -->
+        <section class="container section" style="padding-top: 0;">
+            <div class="section-heading">
+                <span class="eyebrow">Before You Reach Out</span>
+                <h2>Is This the Right Fit for You?</h2>
+                <p>An honest look at who this works best for.</p>
+            </div>
+            <div class="process-grid scenario-grid" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-user"/></svg></span>
+                    <h3 class="card-title">Want direct access to a senior strategist?</h3>
+                    <p class="card-text">Every plan includes working with Buddika directly, not a rotating account team.</p>
+                </div>
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-sparkles"/></svg></span>
+                    <h3 class="card-title">Need SEO that also works for AI search engines?</h3>
+                    <p class="card-text"><a href="generative-engine-optimization">Generative Engine Optimization</a> is built into how every engagement runs.</p>
+                </div>
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-bar-chart"/></svg></span>
+                    <h3 class="card-title">Want results backed by verifiable data?</h3>
+                    <p class="card-text">Live positions and dates are documented on the <a href="case-studies">case studies</a> page, not just claimed.</p>
+                </div>
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-map-pin"/></svg></span>
+                    <h3 class="card-title">Based outside Colombo?</h3>
+                    <p class="card-text">Services are delivered remotely across <a href="locations">all 25 districts</a> of Sri Lanka.</p>
+                </div>
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-search"/></svg></span>
+                    <h3 class="card-title">Comparing us against other providers?</h3>
+                    <p class="card-text">See how we're evaluated on our <a href="best-seo-company-in-sri-lanka">best SEO company in Sri Lanka</a> page, then read <a href="customer-reviews">customer reviews of our SEO and GEO work</a>.</p>
+                </div>
+                <div class="process-step">
+                    <span class="scenario-icon"><svg class="icon"><use href="#icon-shield"/></svg></span>
+                    <h3 class="card-title">Looking for the lowest price above all else?</h3>
+                    <p class="card-text">Probably not us. We're built around results that survive algorithm updates, not the cheapest possible invoice.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="container section" style="max-width: 820px;">
+            <div class="section-heading">
+                <span class="eyebrow">FAQ</span>
+                <h2>About SEOSERVICE.LK, Answered</h2>
+            </div>
+            <div class="faq-list" style="display: flex; flex-direction: column; gap: 1rem;">
+                <details class="faq-item" open>
+                    <summary>Is Applantics (Pvt) Ltd the same company as SEOSERVICE.LK?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Yes. SEOSERVICE.LK is the SEO and Generative Engine Optimization practice operated by Applantics (Pvt) Ltd, a registered Sri Lankan company based in Narammala. The two names describe the same team and legal entity, not a franchise or reseller relationship, and every engagement is delivered directly by that team.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>What makes Buddika S. Weerasekara qualified to lead SEO campaigns?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Certifications held across Google, SEMrush, Meta, HubSpot and Moz back the work, but the more relevant evidence is verifiable: #1 rankings currently held across competitive verticals, documented in the case studies, with real ranking and traffic data rather than self-reported claims.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I verify the results and rankings you claim?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Yes, that's the point of publishing them. The case studies page documents live positions with dates and search terms rather than screenshots that could be staged, and clients receive monthly reporting against the same ranking and traffic data used to compile those results.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Do you subcontract work to freelancers or junior staff?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>No. Every plan describes direct access to a senior strategist rather than an account manager relaying instructions to outsourced writers or link farms, which is also why capacity is limited: the team only takes on as many active engagements as it can execute personally.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Why choose Applantics over a larger Colombo agency?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Size cuts both ways. A larger agency spreads senior attention across dozens of accounts; a smaller, specialist practice puts the founder's own methodology directly on your campaign. That trade-off is real, which is why this page publishes verifiable rankings instead of asking you to take agency size as a proxy for quality.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is the "100% Google-safe" claim actually meaningful, or just marketing language?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>It rules out a specific set of tactics: private blog networks, automated link farms, and any shortcut that trades short-term ranking gains for future penalty risk. Every technique used is built to survive Google's core algorithm updates rather than exploit a gap that eventually closes.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How is Generative Engine Optimization different from what other SEO agencies in Sri Lanka offer?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Most Sri Lankan agencies still sell SEO as ranking a link on a results page. GEO, built into the Growth and Enterprise packages here, specifically targets being the source an AI engine quotes inside ChatGPT, Google AI Overviews or Perplexity, which depends on entity clarity as much as classic ranking factors.</p>
+                </details>
+            </div>
+        </section>
+
         <!-- CTA Callout -->
         <section class="container section">
             <div class="card" style="text-align: center; background: linear-gradient(145deg, rgba(212, 175, 55, 0.16), rgba(169, 129, 44, 0.1)); border-color: rgba(212, 175, 55, 0.32); padding: 3.5rem 2rem;">
@@ -347,17 +572,18 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <span class="footer-text">About Us</span>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
                 <a href="case-studies">Case Studies</a>
+                <a href="customer-reviews">Customer Reviews</a>
                 <a href="pricing">Pricing &amp; Plans</a>
                 <a href="blog">SEO Blog</a>
                 <a href="contact">Contact Us</a>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -370,7 +596,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -382,7 +608,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>
@@ -498,117 +724,6 @@
         </button>
     </div>
 
-    <style>
-        .wa-widget { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 999; }
-
-        .wa-fab {
-            width: 60px; height: 60px; border-radius: 50%; border: none; cursor: pointer;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            position: relative; transition: transform 0.2s ease, box-shadow 0.2s ease;
-            animation: wa-fab-ring 2.6s ease-out infinite;
-        }
-        .wa-fab:hover { transform: translateY(-3px); }
-        .wa-fab .icon { width: 28px; height: 28px; color: var(--ink); }
-        .wa-fab-icon-close { display: none; }
-        .wa-widget.open .wa-fab-icon-open { display: none; }
-        .wa-widget.open .wa-fab-icon-close { display: block; }
-        .wa-widget.open .wa-fab { animation: none; }
-
-        .wa-fab-dot {
-            position: absolute; top: 2px; right: 2px; width: 14px; height: 14px; border-radius: 50%;
-            background: #3fbf7f; border: 2px solid #0a0a0b;
-        }
-        .wa-widget.open .wa-fab-dot { display: none; }
-
-        @keyframes wa-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .wa-fab { animation: none; }
-        }
-
-        .wa-panel {
-            position: absolute; right: 0; bottom: 76px; width: min(336px, calc(100vw - 2.5rem));
-            background: rgba(10,10,11,0.97);
-            border: 1px solid var(--glass-border, rgba(212,175,55,0.18));
-            border-radius: var(--radius-lg, 20px);
-            box-shadow: 0 20px 48px rgba(0,0,0,0.55);
-            backdrop-filter: blur(20px);
-            overflow: hidden;
-            opacity: 0; transform: translateY(16px) scale(0.98); pointer-events: none;
-            transition: opacity 0.22s ease, transform 0.22s ease;
-            transform-origin: bottom right;
-        }
-        .wa-widget.open .wa-panel { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
-
-        .wa-panel-header {
-            display: flex; align-items: center; gap: 0.7rem;
-            padding: 1rem 1.1rem;
-            background: linear-gradient(135deg, #D4AF37, #A9812C);
-            color: #15110a;
-        }
-        .wa-avatar {
-            width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
-            background: rgba(21,17,10,0.16);
-            display: flex; align-items: center; justify-content: center;
-        }
-        .wa-avatar .icon { width: 20px; height: 20px; color: #15110a; }
-        .wa-header-text { flex-grow: 1; display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
-        .wa-header-text strong { font-size: 0.95rem; }
-        .wa-header-text span { font-size: 0.74rem; color: rgba(21,17,10,0.72); display: flex; align-items: center; gap: 0.35rem; }
-        .wa-dot { width: 7px; height: 7px; border-radius: 50%; background: #1f8f3f; display: inline-block; flex-shrink: 0; }
-        .wa-close {
-            background: rgba(21,17,10,0.12); border: none; border-radius: 8px; cursor: pointer;
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-        }
-        .wa-close .icon { width: 15px; height: 15px; color: #15110a; }
-
-        .wa-panel-body { padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; }
-        .wa-bubble {
-            background: rgba(255,255,255,0.055);
-            border: 1px solid rgba(212,175,55,0.14);
-            border-radius: 14px 14px 14px 4px;
-            padding: 0.75rem 0.9rem;
-            font-size: 0.86rem; line-height: 1.5;
-            color: rgba(242,237,225,0.9);
-            margin-bottom: 0.25rem;
-        }
-        .wa-action {
-            display: flex; align-items: center; gap: 0.6rem;
-            padding: 0.7rem 0.85rem;
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            color: #E8C568;
-            font-size: 0.86rem; font-weight: 600;
-            text-decoration: none;
-            background: rgba(212,175,55,0.06);
-            transition: background 0.15s ease, border-color 0.15s ease;
-        }
-        .wa-action:hover { background: rgba(212,175,55,0.14); border-color: rgba(212,175,55,0.4); }
-        .wa-action-emoji { font-size: 1rem; }
-
-        .wa-panel-footer {
-            display: flex; align-items: center; gap: 0.65rem;
-            padding: 0.85rem 1.1rem;
-            border-top: 1px solid rgba(212,175,55,0.14);
-            background: rgba(255,255,255,0.02);
-            text-decoration: none;
-            color: rgba(242,237,225,0.72);
-            font-size: 0.78rem; line-height: 1.4;
-        }
-        .wa-panel-footer strong { color: #E8C568; font-size: 0.82rem; }
-        .wa-panel-footer .icon { width: 16px; height: 16px; color: #3fbf7f; flex-shrink: 0; }
-
-        @media (max-width: 420px) {
-            .wa-widget { right: 0.85rem; bottom: 0.85rem; }
-            .wa-fab { width: 54px; height: 54px; }
-        }
-    </style>
-
     <script>
         (function () {
             const widget = document.getElementById('waWidget');
@@ -639,52 +754,6 @@
         <svg class="icon"><use href="#icon-phone"/></svg>
         <span class="call-fab-tip">Call Now<br><small>077 806 4714</small></span>
     </a>
-
-    <style>
-        .call-fab {
-            position: fixed; left: 1.25rem; bottom: 1.25rem; z-index: 999;
-            width: 60px; height: 60px; border-radius: 50%;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            transition: transform 0.2s ease;
-            animation: call-fab-ring 2.6s ease-out infinite;
-            animation-delay: 1.3s;
-        }
-        .call-fab:hover { transform: translateY(-3px); }
-        .call-fab .icon { width: 26px; height: 26px; color: var(--ink); }
-
-        @keyframes call-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .call-fab { animation: none; }
-        }
-
-        .call-fab-tip {
-            position: absolute; left: 100%; bottom: 0; margin-left: 0.75rem;
-            background: rgba(10,10,11,0.97);
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            padding: 0.55rem 0.85rem;
-            font-size: 0.8rem; font-weight: 600; line-height: 1.35;
-            color: #F2EDE1;
-            white-space: nowrap;
-            opacity: 0; transform: translateX(-6px); pointer-events: none;
-            transition: opacity 0.15s ease, transform 0.15s ease;
-        }
-        .call-fab-tip small { font-weight: 500; color: rgba(242,237,225,0.65); }
-        .call-fab:hover .call-fab-tip, .call-fab:focus-visible .call-fab-tip {
-            opacity: 1; transform: translateX(0);
-        }
-
-        @media (max-width: 420px) {
-            .call-fab { left: 0.85rem; bottom: 0.85rem; width: 54px; height: 54px; }
-            .call-fab-tip { display: none; }
-        }
-    </style>
 </body>
 </html>
 

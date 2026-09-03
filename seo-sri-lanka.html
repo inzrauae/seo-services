@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7Z2CVHRFL"></script>
     <script>
@@ -10,16 +12,14 @@
 
       gtag('config', 'G-P7Z2CVHRFL');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <title>SEO Guide for Sri Lankan Businesses | Learn SEO Best Practices</title>
     <meta name="description" content="Complete SEO guide for Sri Lankan businesses: learn how SEO works, best practices, costs, timelines, and why SEOSERVICE.LK delivers results.">
-    <meta name="keywords" content="seo guide, how seo works sri lanka, seo tips, seo best practices, seo for business, what is seo, seo learning resource">
     <link rel="canonical" href="https://seoservice.lk/seo-sri-lanka">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <meta property="og:title" content="SEO Guide for Sri Lankan Businesses | Learn SEO Best Practices">
     <meta property="og:description" content="Complete educational guide: how SEO works, best practices, costs, timelines, and how to choose an SEO partner in Sri Lanka.">
@@ -32,11 +32,12 @@
     <meta name="twitter:description" content="Learn how SEO works, best practices, ROI, and how to choose the right SEO partner for your Sri Lankan business.">
     <meta name="twitter:image" content="https://seoservice.lk/seo-sri-lanka.jpg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" href="seo-sri-lanka.webp" fetchpriority="high">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.min.css?v=20260903" as="style">
+
+    <link rel="stylesheet" href="style.min.css?v=20260903">
     <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 
     <style>
@@ -67,10 +68,72 @@
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/",
+                    "https://maps.google.com/?cid=14358100485253505772"
+                ],
+                "hasMap": "https://maps.google.com/?cid=14358100485253505772",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 7.4339211,
+                    "longitude": 80.2161737
+                }
+            },
+            {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://seoservice.lk/" },
-                    { "@type": "ListItem", "position": 2, "name": "SEO Sri Lanka", "item": "https://seoservice.lk/seo-sri-lanka" }
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://seoservice.lk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "SEO Sri Lanka",
+                        "item": "https://seoservice.lk/seo-sri-lanka"
+                    }
                 ]
             },
             {
@@ -80,46 +143,100 @@
                 "image": "https://seoservice.lk/seo-sri-lanka.jpg",
                 "datePublished": "2026-09-01",
                 "dateModified": "2026-09-01",
-                "author": { "@type": "Person", "name": "Buddika S. Weerasekara", "url": "https://seoservice.lk/about" },
+                "author": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
                 "publisher": {
-                    "@type": "Organization",
-                    "name": "SEOSERVICE.LK",
-                    "url": "https://seoservice.lk",
-                    "parentOrganization": { "@type": "Organization", "name": "Applantics PVT LTD" }
+                    "@id": "https://seoservice.lk/#organization"
                 },
                 "mainEntityOfPage": "https://seoservice.lk/seo-sri-lanka"
             },
             {
-                "@type": "ProfessionalService",
-                "name": "SEOSERVICE.LK",
-                "url": "https://seoservice.lk/seo-sri-lanka",
-                "image": "https://seoservice.lk/seo-sri-lanka.jpg",
-                "description": "SEO company in Sri Lanka providing technical SEO, on-page SEO, off-page SEO, local SEO, e-commerce SEO, international SEO, SEO audits, keyword research, content strategy, link building and Generative Engine Optimization.",
-                "areaServed": { "@type": "Country", "name": "Sri Lanka" },
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "No 2 UB Wijekoon Mawatha",
-                    "addressLocality": "Narammala",
-                    "postalCode": "60100",
-                    "addressCountry": "LK"
-                },
-                "telephone": "+94778064714",
-                "email": "contact@seoservice.lk",
-                "priceRange": "Rs. 99,000 - Rs. 130,000"
+                "@id": "https://seoservice.lk/#organization"
             },
             {
                 "@type": "FAQPage",
                 "mainEntity": [
-                    { "@type": "Question", "name": "What is the best SEO company in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single objectively 'best' SEO company for every business, since the right fit depends on industry, budget and target market. SEOSERVICE.LK is a Sri Lankan SEO company led by Buddika S. Weerasekara with documented #1 rankings across multiple industries — see our verified case studies." } },
-                    { "@type": "Question", "name": "How much does SEO cost in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "SEOSERVICE.LK publishes transparent packages starting from Rs. 99,000 for a 10-keyword Starter package, Rs. 130,000 for a 20-keyword Growth package with Entity Stacking, and Rs. 120,000/month for an Enterprise ongoing retainer. Final pricing depends on website size, competition and scope." } },
-                    { "@type": "Question", "name": "Is SEO worth it for small businesses in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEO is typically more cost-effective long-term than paid advertising for Sri Lankan small businesses because organic rankings continue generating traffic without an ongoing per-click cost, once achieved." } },
-                    { "@type": "Question", "name": "How long does SEO take to show results in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Most Sri Lankan businesses see measurable ranking movement within 3-4 months, with strong keyword rankings typically achieved within 1-6 months depending on competition, domain history and implementation speed." } },
-                    { "@type": "Question", "name": "Do I need local SEO or national SEO in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Businesses serving a specific city or region generally benefit most from local SEO — Google Business Profile optimization, local citations and location pages. Businesses selling nationally or internationally need broader national or international SEO strategies." } },
-                    { "@type": "Question", "name": "Can I do SEO myself instead of hiring an SEO company in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Basic on-page SEO can be handled in-house, but technical SEO, competitive keyword research, authority building and Generative Engine Optimization typically require specialist experience to execute effectively and avoid mistakes that can harm rankings." } },
-                    { "@type": "Question", "name": "What is the difference between SEO and paid ads (PPC) in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "PPC (Pay-Per-Click) delivers traffic only while a campaign is funded and paid for per click. SEO builds organic rankings that continue generating traffic after the initial investment, making it a compounding long-term asset." } },
-                    { "@type": "Question", "name": "Can an SEO company guarantee #1 rankings on Google?", "acceptedAnswer": { "@type": "Answer", "text": "No legitimate SEO provider can guarantee a permanent #1 position, since Google's algorithm is outside any agency's control. A trustworthy provider should focus on sustainable visibility and show verifiable past results instead of unconditional guarantees." } },
-                    { "@type": "Question", "name": "What should I check before hiring an SEO company in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "Ask for verifiable case studies with live rankings, review how the provider's own website is technically built and structured, confirm they use white-hat methods, and check whether they explain strategy clearly rather than relying on vague promises." } },
-                    { "@type": "Question", "name": "What makes SEOSERVICE.LK different from other SEO companies in Sri Lanka?", "acceptedAnswer": { "@type": "Answer", "text": "SEOSERVICE.LK combines SEO with the wider technical capabilities of Applantics (Pvt) Ltd, publishes transparent pricing, documents live #1 rankings in its case studies, and integrates Generative Engine Optimization alongside traditional SEO." } }
+                    {
+                        "@type": "Question",
+                        "name": "What is the best SEO company in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "There is no single objectively 'best' SEO company for every business, since the right fit depends on industry, budget and target market. SEOSERVICE.LK is a Sri Lankan SEO company led by Buddika S. Weerasekara with documented #1 rankings across multiple industries — see our verified case studies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How much does SEO cost in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SEOSERVICE.LK publishes transparent packages starting from Rs. 99,000 for a 10-keyword Starter package, Rs. 130,000 for a 20-keyword Growth package with Entity Stacking, and Rs. 120,000/month for an Enterprise ongoing retainer. Final pricing depends on website size, competition and scope."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is SEO worth it for small businesses in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. SEO is typically more cost-effective long-term than paid advertising for Sri Lankan small businesses because organic rankings continue generating traffic without an ongoing per-click cost, once achieved."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does SEO take to show results in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most Sri Lankan businesses see measurable ranking movement within 3-4 months, with strong keyword rankings typically achieved within 1-6 months depending on competition, domain history and implementation speed."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do I need local SEO or national SEO in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Businesses serving a specific city or region generally benefit most from local SEO — Google Business Profile optimization, local citations and location pages. Businesses selling nationally or internationally need broader national or international SEO strategies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I do SEO myself instead of hiring an SEO company in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Basic on-page SEO can be handled in-house, but technical SEO, competitive keyword research, authority building and Generative Engine Optimization typically require specialist experience to execute effectively and avoid mistakes that can harm rankings."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the difference between SEO and paid ads (PPC) in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "PPC (Pay-Per-Click) delivers traffic only while a campaign is funded and paid for per click. SEO builds organic rankings that continue generating traffic after the initial investment, making it a compounding long-term asset."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can an SEO company guarantee #1 rankings on Google?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No legitimate SEO provider can guarantee a permanent #1 position, since Google's algorithm is outside any agency's control. A trustworthy provider should focus on sustainable visibility and show verifiable past results instead of unconditional guarantees."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What should I check before hiring an SEO company in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ask for verifiable case studies with live rankings, review how the provider's own website is technically built and structured, confirm they use white-hat methods, and check whether they explain strategy clearly rather than relying on vague promises."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes SEOSERVICE.LK different from other SEO companies in Sri Lanka?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SEOSERVICE.LK combines SEO with the wider technical capabilities of Applantics (Pvt) Ltd, publishes transparent pricing, documents live #1 rankings in its case studies, and integrates Generative Engine Optimization alongside traditional SEO."
+                        }
+                    }
                 ]
             }
         ]
@@ -197,7 +314,7 @@
             </div>
 
             <figure class="article-figure">
-                <img src="seo-sri-lanka.jpg" alt="SEO Sri Lanka — expert SEO services by SEOSERVICE.LK, powered by Applantics" width="1408" height="768" loading="eager">
+                <picture><source srcset="seo-sri-lanka.webp" type="image/webp"><img src="seo-sri-lanka.jpg" alt="SEO Sri Lanka — expert SEO services by SEOSERVICE.LK, powered by Applantics" width="1408" height="768" fetchpriority="high" decoding="async" loading="eager"></picture>
                 <figcaption>SEOSERVICE.LK by Applantics (Pvt) Ltd — SEO Sri Lanka, led by Buddika S. Weerasekara.</figcaption>
             </figure>
 
@@ -367,17 +484,18 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <a href="about">About Us</a>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
                 <a href="case-studies">Case Studies</a>
+                <a href="customer-reviews">Customer Reviews</a>
                 <a href="pricing">Pricing &amp; Plans</a>
                 <a href="blog">SEO Blog</a>
                 <a href="contact">Contact Us</a>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -390,7 +508,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -402,7 +520,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>
@@ -518,117 +636,6 @@
         </button>
     </div>
 
-    <style>
-        .wa-widget { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 999; }
-
-        .wa-fab {
-            width: 60px; height: 60px; border-radius: 50%; border: none; cursor: pointer;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            position: relative; transition: transform 0.2s ease, box-shadow 0.2s ease;
-            animation: wa-fab-ring 2.6s ease-out infinite;
-        }
-        .wa-fab:hover { transform: translateY(-3px); }
-        .wa-fab .icon { width: 28px; height: 28px; color: var(--ink); }
-        .wa-fab-icon-close { display: none; }
-        .wa-widget.open .wa-fab-icon-open { display: none; }
-        .wa-widget.open .wa-fab-icon-close { display: block; }
-        .wa-widget.open .wa-fab { animation: none; }
-
-        .wa-fab-dot {
-            position: absolute; top: 2px; right: 2px; width: 14px; height: 14px; border-radius: 50%;
-            background: #3fbf7f; border: 2px solid #0a0a0b;
-        }
-        .wa-widget.open .wa-fab-dot { display: none; }
-
-        @keyframes wa-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .wa-fab { animation: none; }
-        }
-
-        .wa-panel {
-            position: absolute; right: 0; bottom: 76px; width: min(336px, calc(100vw - 2.5rem));
-            background: rgba(10,10,11,0.97);
-            border: 1px solid var(--glass-border, rgba(212,175,55,0.18));
-            border-radius: var(--radius-lg, 20px);
-            box-shadow: 0 20px 48px rgba(0,0,0,0.55);
-            backdrop-filter: blur(20px);
-            overflow: hidden;
-            opacity: 0; transform: translateY(16px) scale(0.98); pointer-events: none;
-            transition: opacity 0.22s ease, transform 0.22s ease;
-            transform-origin: bottom right;
-        }
-        .wa-widget.open .wa-panel { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
-
-        .wa-panel-header {
-            display: flex; align-items: center; gap: 0.7rem;
-            padding: 1rem 1.1rem;
-            background: linear-gradient(135deg, #D4AF37, #A9812C);
-            color: #15110a;
-        }
-        .wa-avatar {
-            width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
-            background: rgba(21,17,10,0.16);
-            display: flex; align-items: center; justify-content: center;
-        }
-        .wa-avatar .icon { width: 20px; height: 20px; color: #15110a; }
-        .wa-header-text { flex-grow: 1; display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
-        .wa-header-text strong { font-size: 0.95rem; }
-        .wa-header-text span { font-size: 0.74rem; color: rgba(21,17,10,0.72); display: flex; align-items: center; gap: 0.35rem; }
-        .wa-dot { width: 7px; height: 7px; border-radius: 50%; background: #1f8f3f; display: inline-block; flex-shrink: 0; }
-        .wa-close {
-            background: rgba(21,17,10,0.12); border: none; border-radius: 8px; cursor: pointer;
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-        }
-        .wa-close .icon { width: 15px; height: 15px; color: #15110a; }
-
-        .wa-panel-body { padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; }
-        .wa-bubble {
-            background: rgba(255,255,255,0.055);
-            border: 1px solid rgba(212,175,55,0.14);
-            border-radius: 14px 14px 14px 4px;
-            padding: 0.75rem 0.9rem;
-            font-size: 0.86rem; line-height: 1.5;
-            color: rgba(242,237,225,0.9);
-            margin-bottom: 0.25rem;
-        }
-        .wa-action {
-            display: flex; align-items: center; gap: 0.6rem;
-            padding: 0.7rem 0.85rem;
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            color: #E8C568;
-            font-size: 0.86rem; font-weight: 600;
-            text-decoration: none;
-            background: rgba(212,175,55,0.06);
-            transition: background 0.15s ease, border-color 0.15s ease;
-        }
-        .wa-action:hover { background: rgba(212,175,55,0.14); border-color: rgba(212,175,55,0.4); }
-        .wa-action-emoji { font-size: 1rem; }
-
-        .wa-panel-footer {
-            display: flex; align-items: center; gap: 0.65rem;
-            padding: 0.85rem 1.1rem;
-            border-top: 1px solid rgba(212,175,55,0.14);
-            background: rgba(255,255,255,0.02);
-            text-decoration: none;
-            color: rgba(242,237,225,0.72);
-            font-size: 0.78rem; line-height: 1.4;
-        }
-        .wa-panel-footer strong { color: #E8C568; font-size: 0.82rem; }
-        .wa-panel-footer .icon { width: 16px; height: 16px; color: #3fbf7f; flex-shrink: 0; }
-
-        @media (max-width: 420px) {
-            .wa-widget { right: 0.85rem; bottom: 0.85rem; }
-            .wa-fab { width: 54px; height: 54px; }
-        }
-    </style>
-
     <script>
         (function () {
             const widget = document.getElementById('waWidget');
@@ -659,51 +666,5 @@
         <svg class="icon"><use href="#icon-phone"/></svg>
         <span class="call-fab-tip">Call Now<br><small>077 806 4714</small></span>
     </a>
-
-    <style>
-        .call-fab {
-            position: fixed; left: 1.25rem; bottom: 1.25rem; z-index: 999;
-            width: 60px; height: 60px; border-radius: 50%;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            transition: transform 0.2s ease;
-            animation: call-fab-ring 2.6s ease-out infinite;
-            animation-delay: 1.3s;
-        }
-        .call-fab:hover { transform: translateY(-3px); }
-        .call-fab .icon { width: 26px; height: 26px; color: var(--ink); }
-
-        @keyframes call-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .call-fab { animation: none; }
-        }
-
-        .call-fab-tip {
-            position: absolute; left: 100%; bottom: 0; margin-left: 0.75rem;
-            background: rgba(10,10,11,0.97);
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            padding: 0.55rem 0.85rem;
-            font-size: 0.8rem; font-weight: 600; line-height: 1.35;
-            color: #F2EDE1;
-            white-space: nowrap;
-            opacity: 0; transform: translateX(-6px); pointer-events: none;
-            transition: opacity 0.15s ease, transform 0.15s ease;
-        }
-        .call-fab-tip small { font-weight: 500; color: rgba(242,237,225,0.65); }
-        .call-fab:hover .call-fab-tip, .call-fab:focus-visible .call-fab-tip {
-            opacity: 1; transform: translateX(0);
-        }
-
-        @media (max-width: 420px) {
-            .call-fab { left: 0.85rem; bottom: 0.85rem; width: 54px; height: 54px; }
-            .call-fab-tip { display: none; }
-        }
-    </style>
 </body>
 </html>

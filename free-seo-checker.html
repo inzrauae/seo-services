@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7Z2CVHRFL"></script>
     <script>
@@ -10,16 +12,14 @@
 
       gtag('config', 'G-P7Z2CVHRFL');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <title>Free SEO Checker – Instant Website SEO Audit Tool | SEOSERVICE.LK</title>
+    <title>Free SEO Checker | Instant Website SEO Audit</title>
     <meta name="description" content="Run a free SEO checker on any website in seconds. Get an instant SEO score, uncover technical, on-page, content, image, link &amp; schema issues, and fix them fast.">
-    <meta name="keywords" content="free seo checker, free seo audit tool, seo checker, website seo checker, seo analyzer, on page seo checker, free website seo audit">
     <link rel="canonical" href="https://seoservice.lk/free-seo-checker">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Free SEO Checker – Instant Website SEO Audit Tool | SEOSERVICE.LK">
     <meta property="og:description" content="Run a free SEO checker on any website in seconds. Get an instant SEO score, uncover technical, on-page, content, image, link &amp; schema issues, and fix them fast.">
     <meta property="og:type" content="website">
@@ -32,11 +32,11 @@
     <meta name="twitter:image" content="https://seoservice.lk/seo-expert-hero.png">
 
     <!-- Modern geometric sans-serif -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.min.css?v=20260903" as="style">
+
+    <link rel="stylesheet" href="style.min.css?v=20260903">
     <link rel="stylesheet" href="free-seo-checker.css">
     <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 
@@ -45,10 +45,72 @@
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": [
+                    "Organization",
+                    "ProfessionalService"
+                ],
+                "@id": "https://seoservice.lk/#organization",
+                "name": "SEOSERVICE.LK",
+                "legalName": "Applantics (Pvt) Ltd",
+                "alternateName": [
+                    "SEO Service LK",
+                    "Applantics"
+                ],
+                "url": "https://seoservice.lk/",
+                "logo": "https://seoservice.lk/seo-expert-hero.png",
+                "image": "https://seoservice.lk/seo-expert-hero.png",
+                "description": "SEO agency and Generative Engine Optimization consultancy in Sri Lanka, providing technical SEO, local SEO, e-commerce SEO and AI search visibility services across all 25 districts.",
+                "parentOrganization": {
+                    "@type": "Organization",
+                    "name": "Applantics (Pvt) Ltd",
+                    "url": "https://seoservice.lk/"
+                },
+                "founder": {
+                    "@id": "https://seoservice.lk/#founder"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No 2 UB Wijekoon Mawatha",
+                    "addressLocality": "Narammala",
+                    "postalCode": "60100",
+                    "addressCountry": "LK"
+                },
+                "email": "contact@seoservice.lk",
+                "telephone": "+94778064714",
+                "priceRange": "Rs. 99,000 - Rs. 130,000",
+                "currenciesAccepted": "LKR, USD",
+                "paymentAccepted": "Bank Transfer, Credit Card",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Sri Lanka"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/seo-consultant-sri-lanka",
+                    "https://www.facebook.com/buddika.suresh/",
+                    "https://maps.google.com/?cid=14358100485253505772"
+                ],
+                "hasMap": "https://maps.google.com/?cid=14358100485253505772",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 7.4339211,
+                    "longitude": 80.2161737
+                }
+            },
+            {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://seoservice.lk/" },
-                    { "@type": "ListItem", "position": 2, "name": "Free SEO Checker", "item": "https://seoservice.lk/free-seo-checker" }
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://seoservice.lk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Free SEO Checker",
+                        "item": "https://seoservice.lk/free-seo-checker"
+                    }
                 ]
             },
             {
@@ -70,12 +132,13 @@
                     "Optional target-keyword analysis",
                     "Analyze-by-URL or paste-HTML modes with no data stored"
                 ],
-                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
                 "provider": {
-                    "@type": "Organization",
-                    "name": "SEOSERVICE.LK",
-                    "url": "https://seoservice.lk/",
-                    "parentOrganization": { "@type": "Organization", "name": "Applantics PVT LTD", "url": "https://seoservice.lk" }
+                    "@id": "https://seoservice.lk/#organization"
                 }
             },
             {
@@ -83,10 +146,30 @@
                 "name": "How to Use the Free SEO Checker",
                 "description": "Run a free SEO audit on any webpage in four steps, directly in your browser.",
                 "step": [
-                    { "@type": "HowToStep", "position": 1, "name": "Enter your URL or paste HTML", "text": "Type your website's URL into the Analyze Website URL tab, or switch to the Analyze HTML tab and paste the page's full HTML source code." },
-                    { "@type": "HowToStep", "position": 2, "name": "Add an optional target keyword", "text": "Enter a target keyword to also check how well the page is optimized for that specific phrase." },
-                    { "@type": "HowToStep", "position": 3, "name": "Click Analyze", "text": "The tool fetches and parses the page (or analyzes your pasted HTML) entirely in your browser, with nothing sent to a server." },
-                    { "@type": "HowToStep", "position": 4, "name": "Review your SEO score and fix issues", "text": "Get an instant 0-100 SEO score across seven categories, with every check labeled Passed, Needs Improvement, or Error, plus a plain-English recommendation for each issue." }
+                    {
+                        "@type": "HowToStep",
+                        "position": 1,
+                        "name": "Enter your URL or paste HTML",
+                        "text": "Type your website's URL into the Analyze Website URL tab, or switch to the Analyze HTML tab and paste the page's full HTML source code."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 2,
+                        "name": "Add an optional target keyword",
+                        "text": "Enter a target keyword to also check how well the page is optimized for that specific phrase."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 3,
+                        "name": "Click Analyze",
+                        "text": "The tool fetches and parses the page (or analyzes your pasted HTML) entirely in your browser, with nothing sent to a server."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 4,
+                        "name": "Review your SEO score and fix issues",
+                        "text": "Get an instant 0-100 SEO score across seven categories, with every check labeled Passed, Needs Improvement, or Error, plus a plain-English recommendation for each issue."
+                    }
                 ]
             },
             {
@@ -95,32 +178,50 @@
                     {
                         "@type": "Question",
                         "name": "What is an SEO checker?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "An SEO checker is a tool that scans a webpage's HTML and reports on the on-page, technical, content, image, link and structured-data factors that influence how well it can rank in search engines like Google." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "An SEO checker is a tool that scans a webpage's HTML and reports on the on-page, technical, content, image, link and structured-data factors that influence how well it can rank in search engines like Google."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "How does the Free SEO Checker work?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Enter a URL and the tool tries to fetch and parse that page directly in your browser. If the site's server blocks cross-origin browser requests (a common CORS restriction), you can instead paste the page's HTML source code and the tool will analyze it exactly the same way, entirely on your device." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Enter a URL and the tool tries to fetch and parse that page directly in your browser. If the site's server blocks cross-origin browser requests (a common CORS restriction), you can instead paste the page's HTML source code and the tool will analyze it exactly the same way, entirely on your device."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "Is this SEO checker free?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Free SEO Checker from SEOSERVICE.LK is 100% free to use, requires no signup, and runs unlimited audits directly in your browser." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. The Free SEO Checker from SEOSERVICE.LK is completely free, requires no signup or credit card, and runs unlimited audits directly in your browser. It checks title and meta description length, heading structure, image alt text, canonical tags, structured data and other on-page factors, then returns a prioritised list of what to fix. There is no obligation to buy anything afterwards."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "Does the tool improve my Google ranking?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "The tool itself does not change your rankings — it identifies the SEO issues holding your page back. Fixing the flagged issues, or working with an SEO specialist to fix them, is what can improve your visibility in Google over time." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The tool itself does not change your rankings — it identifies the SEO issues holding your page back. Fixing the flagged issues, or working with an SEO specialist to fix them, is what can improve your visibility in Google over time."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "What SEO factors does it check?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "It checks meta tags, title and description length, heading structure, word count and readability, image ALT attributes, internal and external links, HTTPS and canonical tags, robots.txt and sitemap.xml, language and viewport tags, plus JSON-LD schema, Open Graph and Twitter Card data." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It checks meta tags, title and description length, heading structure, word count and readability, image ALT attributes, internal and external links, HTTPS and canonical tags, robots.txt and sitemap.xml, language and viewport tags, plus JSON-LD schema, Open Graph and Twitter Card data."
+                        }
                     },
                     {
                         "@type": "Question",
                         "name": "Can I use the tool on any website?",
-                        "acceptedAnswer": { "@type": "Answer", "text": "You can try any public URL. Because browsers enforce CORS security restrictions, some sites cannot be fetched directly by JavaScript — in that case, use the Analyze HTML option and paste the page's source code instead." }
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You can try any public URL. Because browsers enforce CORS security restrictions, some sites cannot be fetched directly by JavaScript — in that case, use the Analyze HTML option and paste the page's source code instead."
+                        }
                     }
                 ]
             }
@@ -452,7 +553,7 @@
                     <summary>Is this SEO checker free?
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
-                    <p>Yes. The Free SEO Checker from SEOSERVICE.LK is 100% free to use, requires no signup, and runs unlimited audits directly in your browser.</p>
+                    <p>Yes. The Free SEO Checker from SEOSERVICE.LK is completely free, requires no signup or credit card, and runs unlimited audits directly in your browser. It checks title and meta description length, heading structure, image alt text, canonical tags, structured data and other on-page factors, then returns a prioritised list of what to fix. There is no obligation to buy anything afterwards.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Does the tool improve my Google ranking?
@@ -490,18 +591,19 @@
                 </div>
             </div>
             <div class="footer-col">
-                <h4>Navigation</h4>
+                <h3>Navigation</h3>
                 <a href="about">About Us</a>
                 <a href="services">SEO Services</a>
                 <a href="locations">Service Areas</a>
                 <a href="case-studies">Case Studies</a>
+                <a href="customer-reviews">Customer Reviews</a>
                 <a href="pricing">Pricing &amp; Plans</a>
                 <a href="blog">SEO Blog</a>
                 <a href="free-seo-checker">Free SEO Checker</a>
                 <span class="footer-text">Contact Us</span>
             </div>
             <div class="footer-col">
-                <h4>SEO Services</h4>
+                <h3>SEO Services</h3>
                 <a href="technical-seo">Technical SEO</a>
                 <a href="on-page-seo">On-Page SEO</a>
                 <a href="off-page-seo">Off-Page SEO</a>
@@ -514,7 +616,7 @@
                 <a href="link-building">Link Building</a>
             </div>
             <div class="footer-col">
-                <h4>AI &amp; GEO Services</h4>
+                <h3>AI &amp; GEO Services</h3>
                 <a href="generative-engine-optimization">Generative Engine Optimization</a>
                 <a href="ai-search-optimization">AI Search Optimization</a>
                 <a href="chatgpt-visibility-optimization">ChatGPT Visibility</a>
@@ -526,7 +628,7 @@
                 <a href="brand-entity-optimization">Brand Entity Optimization</a>
             </div>
             <div class="footer-col">
-                <h4>Legal &amp; Support</h4>
+                <h3>Legal &amp; Support</h3>
                 <a href="privacy-policy">Privacy Policy</a>
                 <a href="terms">Terms of Service</a>
                 <a href="mailto:contact@seoservice.lk"><svg class="icon"><use href="#icon-mail"/></svg> contact@seoservice.lk</a>
@@ -605,7 +707,7 @@
             revealTargets.forEach(el => revealObserver.observe(el));
         });
     </script>
-    <script src="free-seo-checker.js"></script>
+    <script src="free-seo-checker.min.js?v=20260903" defer></script>
 
     <!-- WhatsApp Live Chat Widget -->
     <div class="wa-widget" id="waWidget">
@@ -645,117 +747,6 @@
         </button>
     </div>
 
-    <style>
-        .wa-widget { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 999; }
-
-        .wa-fab {
-            width: 60px; height: 60px; border-radius: 50%; border: none; cursor: pointer;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            position: relative; transition: transform 0.2s ease, box-shadow 0.2s ease;
-            animation: wa-fab-ring 2.6s ease-out infinite;
-        }
-        .wa-fab:hover { transform: translateY(-3px); }
-        .wa-fab .icon { width: 28px; height: 28px; color: var(--ink); }
-        .wa-fab-icon-close { display: none; }
-        .wa-widget.open .wa-fab-icon-open { display: none; }
-        .wa-widget.open .wa-fab-icon-close { display: block; }
-        .wa-widget.open .wa-fab { animation: none; }
-
-        .wa-fab-dot {
-            position: absolute; top: 2px; right: 2px; width: 14px; height: 14px; border-radius: 50%;
-            background: #3fbf7f; border: 2px solid #0a0a0b;
-        }
-        .wa-widget.open .wa-fab-dot { display: none; }
-
-        @keyframes wa-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .wa-fab { animation: none; }
-        }
-
-        .wa-panel {
-            position: absolute; right: 0; bottom: 76px; width: min(336px, calc(100vw - 2.5rem));
-            background: rgba(10,10,11,0.97);
-            border: 1px solid var(--glass-border, rgba(212,175,55,0.18));
-            border-radius: var(--radius-lg, 20px);
-            box-shadow: 0 20px 48px rgba(0,0,0,0.55);
-            backdrop-filter: blur(20px);
-            overflow: hidden;
-            opacity: 0; transform: translateY(16px) scale(0.98); pointer-events: none;
-            transition: opacity 0.22s ease, transform 0.22s ease;
-            transform-origin: bottom right;
-        }
-        .wa-widget.open .wa-panel { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
-
-        .wa-panel-header {
-            display: flex; align-items: center; gap: 0.7rem;
-            padding: 1rem 1.1rem;
-            background: linear-gradient(135deg, #D4AF37, #A9812C);
-            color: #15110a;
-        }
-        .wa-avatar {
-            width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
-            background: rgba(21,17,10,0.16);
-            display: flex; align-items: center; justify-content: center;
-        }
-        .wa-avatar .icon { width: 20px; height: 20px; color: #15110a; }
-        .wa-header-text { flex-grow: 1; display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
-        .wa-header-text strong { font-size: 0.95rem; }
-        .wa-header-text span { font-size: 0.74rem; color: rgba(21,17,10,0.72); display: flex; align-items: center; gap: 0.35rem; }
-        .wa-dot { width: 7px; height: 7px; border-radius: 50%; background: #1f8f3f; display: inline-block; flex-shrink: 0; }
-        .wa-close {
-            background: rgba(21,17,10,0.12); border: none; border-radius: 8px; cursor: pointer;
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-        }
-        .wa-close .icon { width: 15px; height: 15px; color: #15110a; }
-
-        .wa-panel-body { padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; }
-        .wa-bubble {
-            background: rgba(255,255,255,0.055);
-            border: 1px solid rgba(212,175,55,0.14);
-            border-radius: 14px 14px 14px 4px;
-            padding: 0.75rem 0.9rem;
-            font-size: 0.86rem; line-height: 1.5;
-            color: rgba(242,237,225,0.9);
-            margin-bottom: 0.25rem;
-        }
-        .wa-action {
-            display: flex; align-items: center; gap: 0.6rem;
-            padding: 0.7rem 0.85rem;
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            color: #E8C568;
-            font-size: 0.86rem; font-weight: 600;
-            text-decoration: none;
-            background: rgba(212,175,55,0.06);
-            transition: background 0.15s ease, border-color 0.15s ease;
-        }
-        .wa-action:hover { background: rgba(212,175,55,0.14); border-color: rgba(212,175,55,0.4); }
-        .wa-action-emoji { font-size: 1rem; }
-
-        .wa-panel-footer {
-            display: flex; align-items: center; gap: 0.65rem;
-            padding: 0.85rem 1.1rem;
-            border-top: 1px solid rgba(212,175,55,0.14);
-            background: rgba(255,255,255,0.02);
-            text-decoration: none;
-            color: rgba(242,237,225,0.72);
-            font-size: 0.78rem; line-height: 1.4;
-        }
-        .wa-panel-footer strong { color: #E8C568; font-size: 0.82rem; }
-        .wa-panel-footer .icon { width: 16px; height: 16px; color: #3fbf7f; flex-shrink: 0; }
-
-        @media (max-width: 420px) {
-            .wa-widget { right: 0.85rem; bottom: 0.85rem; }
-            .wa-fab { width: 54px; height: 54px; }
-        }
-    </style>
-
     <script>
         (function () {
             const widget = document.getElementById('waWidget');
@@ -786,51 +777,5 @@
         <svg class="icon"><use href="#icon-phone"/></svg>
         <span class="call-fab-tip">Call Now<br><small>077 806 4714</small></span>
     </a>
-
-    <style>
-        .call-fab {
-            position: fixed; left: 1.25rem; bottom: 1.25rem; z-index: 999;
-            width: 60px; height: 60px; border-radius: 50%;
-            background: linear-gradient(160deg, #E8C568 0%, #A9812C 100%);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.5);
-            display: flex; align-items: center; justify-content: center;
-            transition: transform 0.2s ease;
-            animation: call-fab-ring 2.6s ease-out infinite;
-            animation-delay: 1.3s;
-        }
-        .call-fab:hover { transform: translateY(-3px); }
-        .call-fab .icon { width: 26px; height: 26px; color: var(--ink); }
-
-        @keyframes call-fab-ring {
-            0% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0.45); }
-            70% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 12px rgba(212,175,55,0); }
-            100% { box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 0 0 0 rgba(212,175,55,0); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .call-fab { animation: none; }
-        }
-
-        .call-fab-tip {
-            position: absolute; left: 100%; bottom: 0; margin-left: 0.75rem;
-            background: rgba(10,10,11,0.97);
-            border: 1px solid rgba(212,175,55,0.22);
-            border-radius: 10px;
-            padding: 0.55rem 0.85rem;
-            font-size: 0.8rem; font-weight: 600; line-height: 1.35;
-            color: #F2EDE1;
-            white-space: nowrap;
-            opacity: 0; transform: translateX(-6px); pointer-events: none;
-            transition: opacity 0.15s ease, transform 0.15s ease;
-        }
-        .call-fab-tip small { font-weight: 500; color: rgba(242,237,225,0.65); }
-        .call-fab:hover .call-fab-tip, .call-fab:focus-visible .call-fab-tip {
-            opacity: 1; transform: translateX(0);
-        }
-
-        @media (max-width: 420px) {
-            .call-fab { left: 0.85rem; bottom: 0.85rem; width: 54px; height: 54px; }
-            .call-fab-tip { display: none; }
-        }
-    </style>
 </body>
 </html>
