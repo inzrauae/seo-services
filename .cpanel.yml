@@ -2,10 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=$HOME/public_html/
-    - >-
-      /usr/bin/rsync -a --delete-after
-      --exclude '.git' --exclude '.claude' --exclude '.gitignore'
-      --exclude 'New folder' --exclude 'blog image'
-      --exclude '*.bak' --exclude '.cpanel.yml'
-      ./ $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
     - /bin/cp -f .htaccess $DEPLOYPATH
