@@ -33,6 +33,11 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 
 ## Guides
 
+- [How to Recover From a Google Algorithm Update](https://seoservice.lk/google-algorithm-update-recovery): Diagnosing a core update drop and what recovery actually requires
+- [Backlinks in 2026](https://seoservice.lk/link-building-guide-2026): What link building tactics still work and which get penalized
+- [E-Commerce SEO Checklist](https://seoservice.lk/ecommerce-seo-checklist): Prioritising product, category and technical SEO work for online stores
+- [Title Tags and Meta Descriptions That Actually Get Clicks](https://seoservice.lk/title-tags-meta-descriptions-guide): Writing titles and descriptions that earn the click, not just the ranking
+- [International SEO](https://seoservice.lk/international-seo-guide): ccTLD vs subfolder, hreflang, and trust signals for overseas expansion
 - [Core Web Vitals in 2026](https://seoservice.lk/core-web-vitals-guide): Which Core Web Vitals genuinely move rankings and the fixes that work
 - [How to Rank in the Google Map Pack in Sri Lanka](https://seoservice.lk/google-map-pack-sri-lanka): What determines local Map Pack ranking and how to fix it
 - [SEO vs Google Ads](https://seoservice.lk/seo-vs-google-ads): A framework for sequencing a limited marketing budget between the two
