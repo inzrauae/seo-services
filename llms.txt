@@ -33,6 +33,7 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 
 ## Guides
 
+- [How Much Does SEO Cost in Sri Lanka?](https://seoservice.lk/seo-cost-sri-lanka): 2026 pricing guide covering budget tiers, pricing models, and red flags to avoid
 - [How to Get Cited by ChatGPT and Perplexity](https://seoservice.lk/get-cited-by-ai-search): What makes an AI answer engine quote a source
 - [llms.txt Explained](https://seoservice.lk/llms-txt-guide): What the file does, what belongs in it, and a working example
 - [Sinhala, Tamil or English SEO](https://seoservice.lk/sinhala-tamil-english-seo): Choosing the right search language in Sri Lanka
