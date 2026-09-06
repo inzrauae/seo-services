@@ -258,19 +258,19 @@
         <!-- Article body -->
         <article class="container section" style="max-width: 820px;">
                 <h2 style="margin: 2.5rem 0 1rem;">What llms.txt actually is</h2>
-                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">llms.txt is a Markdown file placed at the root of a domain, at <code>/llms.txt</code>, that gives large language models a curated summary of what a site is and which pages carry its most useful information. It was proposed in 2024 as a way to help AI systems read a site efficiently, rather than crawling and guessing.</p>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">llms.txt is a Markdown file placed at the root of a domain, at <code>/llms.txt</code>, that gives large language models a curated summary of what a site is and which pages carry its most useful information. It was proposed in 2024 as a way to help <a href="ai-search-optimization">AI systems</a> read a site efficiently, rather than crawling and guessing.</p>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">The reasoning is straightforward. A modern web page is mostly navigation, scripts, styling and boilerplate. A language model working from raw HTML spends most of its context on markup that carries no meaning. llms.txt hands over the substance directly: who you are, what you do, and where the real content lives.</p>
                 <h2 style="margin: 2.5rem 0 1rem;">What llms.txt is not</h2>
-                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">It is not a replacement for robots.txt, and it is not an access control mechanism. robots.txt tells crawlers what they may fetch. llms.txt tells models what is worth reading. If you want to block an AI crawler you do that in robots.txt, with a user-agent rule for GPTBot, ClaudeBot, PerplexityBot or whichever agent you mean.</p>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">It is not a replacement for robots.txt, and it is not an access control mechanism. robots.txt tells crawlers what they may fetch. llms.txt tells models what is worth reading. If you want to block an AI crawler you do that in robots.txt, with a user-agent rule for GPTBot, ClaudeBot, <a href="perplexity-optimization">PerplexityBot</a> or whichever agent you mean.</p>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">It is also not an official standard adopted by every AI provider. Support varies, and no major engine has committed to reading it as a ranking input. Treat it as a low-cost, low-risk signal that costs an hour to implement, not as a guaranteed route to citations.</p>
                 <h2 style="margin: 2.5rem 0 1rem;">What belongs in the file</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">The format is deliberately simple. An H1 with the site or organisation name, a blockquote giving a one-paragraph summary, then H2 sections containing lists of links with short descriptions. Everything is Markdown, and everything should be written for a reader who knows nothing about you.</p>
                 <h3 style="margin: 1.75rem 0 0.75rem;">The four things worth including</h3>
                 <ul class="deliverables-list" style="margin: 0 0 1.5rem;">
-                    <li><svg class="icon"><use href="#icon-check"/></svg> <strong>Identity.</strong> The organisation name, what it does, where it operates, and who leads it. This is the part models use to resolve your brand as an entity.</li>
-                    <li><svg class="icon"><use href="#icon-check"/></svg> <strong>Key facts.</strong> Founding details, legal entity, location, contact address, and the services or products you actually offer. Keep these identical to what your structured data says.</li>
-                    <li><svg class="icon"><use href="#icon-check"/></svg> <strong>Primary pages.</strong> A curated list, not a sitemap. Ten to twenty pages that genuinely answer questions, each with a description of what the reader will find there.</li>
-                    <li><svg class="icon"><use href="#icon-check"/></svg> <strong>Nothing you would not publish.</strong> The file is public and will be fetched. It is not a place for pricing you do not advertise or internal notes.</li>
+                    <li><svg class="icon"><use href="#icon-check"/></svg> <span><strong>Identity.</strong> The organisation name, what it does, where it operates, and who leads it. This is the part models use to resolve your brand as an entity.</span></li>
+                    <li><svg class="icon"><use href="#icon-check"/></svg> <span><strong>Key facts.</strong> Founding details, legal entity, location, contact address, and the services or products you actually offer. Keep these identical to what your <a href="schema-markup-guide">structured data</a> says.</span></li>
+                    <li><svg class="icon"><use href="#icon-check"/></svg> <span><strong>Primary pages.</strong> A curated list, not a sitemap. Ten to twenty pages that genuinely answer questions, each with a description of what the reader will find there.</span></li>
+                    <li><svg class="icon"><use href="#icon-check"/></svg> <span><strong>Nothing you would not publish.</strong> The file is public and will be fetched. It is not a place for pricing you do not advertise or internal notes.</span></li>
                 </ul>
                 <h2 style="margin: 2.5rem 0 1rem;">A working example</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">This is the shape of a well-formed file. Keep the summary tight, make every description earn its place, and never list a URL that redirects or is set to noindex.</p>
@@ -302,7 +302,7 @@
                     <li style="margin-bottom: 0.6rem;">Click every URL in the file and confirm each returns a 200 and is indexable.</li>
                     <li style="margin-bottom: 0.6rem;">Ask an AI assistant a question your site should answer, and see whether it surfaces you. This is not a controlled test, but repeated over weeks it shows direction.</li>
                 </ol>
-                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">None of this guarantees a citation. What it does is remove the excuses: if a model does not cite you, it will not be because your site was unreadable.</p>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">None of this guarantees a <a href="get-cited-by-ai-search">citation</a>. What it does is remove the excuses: if a model does not cite you, it will not be because your site was unreadable.</p>
         </article>
 
         <!-- FAQ -->
