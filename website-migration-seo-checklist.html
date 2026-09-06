@@ -180,6 +180,14 @@
                             "@type": "Answer",
                             "text": "Check Search Console daily for the first two weeks, since that is when crawl errors, redirect chains and indexation drops surface first. Continue weekly checks for at least two months, because rankings can keep shifting as Google fully re-crawls and re-evaluates the new site."
                         }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I test redirects before launch without risking the live site?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Build the new site on a password-protected staging URL with a site-wide noindex tag, then test the full redirect map against that staging environment before switching it live. Click through a representative sample of old URLs and confirm each lands on the correct new page, since this catches the majority of migration failures at zero cost, before they ever reach a real visitor or Google's crawler."
+                        }
                     }
                 ]
             }
@@ -251,6 +259,10 @@
 
         <!-- Article body -->
         <article class="container section" style="max-width: 820px;">
+                <div class="card" style="margin: 0 0 2rem; padding: 1.5rem 1.75rem; background: linear-gradient(145deg, rgba(212, 175, 55, 0.1), rgba(169, 129, 44, 0.06)); border-color: rgba(212, 175, 55, 0.25);">
+                    <span class="eyebrow" style="margin-bottom: 0.6rem;">Quick Answer</span>
+                    <p style="margin: 0; font-size: 1rem; line-height: 1.65;">A website redesign or platform migration is the most common cause of a sudden, self-inflicted traffic collapse, typically a 40&ndash;60% drop when done without a URL map, proper 301 redirects, and preserved title tags and structured data. The fix is treating the migration as an SEO project with its own checklist, not a design project SEO gets bolted onto afterward.</p>
+                </div>
                 <h2 style="margin: 2.5rem 0 1rem;">Why migrations are the riskiest thing you can do to a ranking site</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">A working site accumulates thousands of small ranking signals over years: indexed URLs, earned backlinks, title tags Google already trusts, structured data it has already parsed. A redesign or platform migration touches all of it at once. Get the technical handover wrong and you are not risking a slow decline, you are risking losing most of that accumulated trust within days of launch.</p>
 
@@ -268,6 +280,10 @@
                 <h2 style="margin: 2.5rem 0 1rem;">What to preserve exactly</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Title tags and meta descriptions that already rank well should migrate unchanged unless there is a specific, tested reason to rewrite them. The same applies to <a href="schema-markup-guide">structured data</a>: if the old site had a working Organization graph and article markup, the new site needs the identical entities, not a redesigned version that happens to look different to a crawler. This is squarely <a href="technical-seo">technical SEO</a> territory, and it is worth treating as a formal handover item in the project plan rather than an assumption the developer will "keep it the same."</p>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Internal linking patterns matter too. If your highest-authority pages currently link heavily to a specific service page, the redesign needs to preserve that pattern, not reorganise navigation in a way that quietly cuts off the internal links a page was depending on.</p>
+
+                <h2 style="margin: 2.5rem 0 1rem;">Testing on staging before launch</h2>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Never validate a migration for the first time on the live domain. Build the new site on a staging URL, blocked from indexing with a site-wide noindex tag and password protection so it cannot leak into Google's index by accident, and test the entire redirect map against it before the switch. Click through a meaningful sample of old URLs, not just the handful someone remembers, and confirm each one lands on the intended page rather than a near-miss.</p>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">This single step catches the majority of migration disasters before they become public. A broken redirect discovered on staging costs nothing. The same broken redirect discovered a week after launch has already cost rankings, and the fix arrives too late to prevent the dip that already happened.</p>
 
                 <h2 style="margin: 2.5rem 0 1rem;">Launch day and the first two weeks</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Submit the new sitemap to Search Console the moment the site goes live, and check the Coverage report daily for the first two weeks. Watch specifically for a spike in 404s, which usually means a gap in the redirect map, and for a sudden drop in indexed page count, which usually means a robots.txt or noindex tag shipped by accident. Both are common, both are fixable within hours if caught early, and both are effectively unrecoverable in the short term if left for a month.</p>
@@ -306,6 +322,12 @@
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
                     <p>Check Search Console daily for the first two weeks, since that is when crawl errors, redirect chains and indexation drops surface first. Continue weekly checks for at least two months, because rankings can keep shifting as Google fully re-crawls and re-evaluates the new site.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>How do I test redirects before launch without risking the live site?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>Build the new site on a password-protected staging URL with a site-wide noindex tag, then test the full redirect map against that staging environment before switching it live. Click through a representative sample of old URLs and confirm each lands on the correct new page, since this catches the majority of migration failures at zero cost, before they ever reach a real visitor or Google's crawler.</p>
                 </details>
             </div>
         </section>

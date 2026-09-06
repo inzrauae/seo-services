@@ -180,6 +180,14 @@
                             "@type": "Answer",
                             "text": "Rarely on its own. Core updates primarily re-evaluate content quality and relevance, not technical health, so a purely technical fix addresses a different problem. Technical fixes matter when they were a genuine contributing factor, such as content that was hard to crawl or extract, but the core work is usually content quality."
                         }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is a spam update the same as a core update?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. A core update re-evaluates broad content quality and relevance across the index. A spam update specifically targets manipulative patterns such as scaled content abuse or expired domain abuse. Check Search Console's Manual Actions report: a drop with an associated manual action is a spam issue with a documented cause, while a drop with none, timed to a core update, is a quality re-evaluation."
+                        }
                     }
                 ]
             }
@@ -240,7 +248,7 @@
                 <span>/</span>
                 <span>Recovering From a Google Algorithm Update</span>
             </nav>
-            <span class="eyebrow" style="margin-top: 1.5rem;">Guide &middot; 9 min read</span>
+            <span class="eyebrow" style="margin-top: 1.5rem;">Guide &middot; 10 min read</span>
             <h1 style="margin-bottom: 1rem;">How to Recover From a Google Algorithm Update</h1>
             <p class="hero-sub" style="margin-bottom: 1.5rem;">A sudden drop after a core update feels arbitrary from the inside. It rarely is. Here is how to diagnose what actually happened, and what recovery genuinely requires.</p>
             <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 0;">
@@ -251,6 +259,10 @@
 
         <!-- Article body -->
         <article class="container section" style="max-width: 820px;">
+                <div class="card" style="margin: 0 0 2rem; padding: 1.5rem 1.75rem; background: linear-gradient(145deg, rgba(212, 175, 55, 0.1), rgba(169, 129, 44, 0.06)); border-color: rgba(212, 175, 55, 0.25);">
+                    <span class="eyebrow" style="margin-bottom: 0.6rem;">Quick Answer</span>
+                    <p style="margin: 0; font-size: 1rem; line-height: 1.65;">A traffic drop that lines up with a confirmed Google core update rollout, and affects a broad set of pages rather than one URL, is very likely update-related. Recovery requires identifying which specific pages lost visibility, making those pages genuinely more useful than what currently outranks them, and waiting for a subsequent update to re-evaluate the improvements, which can take several months.</p>
+                </div>
                 <h2 style="margin: 2.5rem 0 1rem;">The first question: was it actually the update?</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Before diagnosing anything, confirm the timing. Compare the exact date traffic dropped against Google's published core update rollout windows. A drop that lines up closely, affecting a broad set of pages rather than one URL, is very likely update-related. A drop confined to one page, or one that started on a date with no confirmed rollout, is more likely a technical fault, a lost backlink, or a manual action, each of which needs a completely different fix.</p>
 
@@ -262,6 +274,10 @@
 
                 <h2 style="margin: 2.5rem 0 1rem;">What recovery usually requires</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Once the pattern is clear, the fix is almost always making the affected pages genuinely more useful than what currently outranks them: more complete answers, clearer structure, real expertise visible on the page, not just more words. This is <a href="seo-content-strategy">content strategy</a> work, not a technical patch, and it does not show results immediately. Google has said recovery typically requires waiting for a subsequent update to re-evaluate the improved pages, which can take several months.</p>
+
+                <h2 style="margin: 2.5rem 0 1rem;">Spam updates vs core updates: a different problem</h2>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Not every drop is a core update. Google also ships separate spam updates targeting specific manipulative patterns, scaled content abuse, expired domain abuse, site reputation abuse, and a helpful content system that specifically evaluates whether content was written primarily for people or primarily to attract search traffic. A drop tied to a spam update usually means a specific, identifiable violation rather than a broad quality re-evaluation, and it often requires a reconsideration request after the fix rather than simply waiting for the next core update.</p>
+                <p style="color: var(--text-muted); margin-bottom: 1.15rem;">Check Search Console's Manual Actions report first. A drop with an associated manual action is a spam issue with a specific documented cause. A drop with no manual action, timed to a confirmed core update rollout, is a quality re-evaluation, and the two require entirely different responses.</p>
 
                 <h2 style="margin: 2.5rem 0 1rem;">The mistakes that make it worse</h2>
                 <ul class="deliverables-list" style="margin: 0 0 1.5rem;">
@@ -305,6 +321,12 @@
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
                     <p>Rarely on its own. Core updates primarily re-evaluate content quality and relevance, not technical health, so a purely technical fix addresses a different problem. Technical fixes matter when they were a genuine contributing factor, such as content that was hard to crawl or extract, but the core work is usually content quality.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is a spam update the same as a core update?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>No. A core update re-evaluates broad content quality and relevance across the index. A spam update specifically targets manipulative patterns such as scaled content abuse or expired domain abuse. Check Search Console's Manual Actions report: a drop with an associated manual action is a spam issue with a documented cause, while a drop with none, timed to a core update, is a quality re-evaluation.</p>
                 </details>
             </div>
         </section>

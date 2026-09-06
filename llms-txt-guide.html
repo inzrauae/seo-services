@@ -180,6 +180,14 @@
                             "@type": "Answer",
                             "text": "Short enough to stay accurate. Most sites need between 30 and 80 lines: an identity paragraph, a handful of key facts, and ten to twenty curated links. It is a summary, not a sitemap, so listing every page defeats the purpose."
                         }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Will llms.txt help me rank higher on Google?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. It has no confirmed effect on Google's classic ranking algorithm, since it is read, if at all, by AI language models rather than Google's search index crawler. Its value is entirely in how AI answer engines understand and potentially cite your site, which is a separate outcome from organic ranking position."
+                        }
                     }
                 ]
             }
@@ -257,6 +265,10 @@
 
         <!-- Article body -->
         <article class="container section" style="max-width: 820px;">
+                <div class="card" style="margin: 0 0 2rem; padding: 1.5rem 1.75rem; background: linear-gradient(145deg, rgba(212, 175, 55, 0.1), rgba(169, 129, 44, 0.06)); border-color: rgba(212, 175, 55, 0.25);">
+                    <span class="eyebrow" style="margin-bottom: 0.6rem;">Quick Answer</span>
+                    <p style="margin: 0; font-size: 1rem; line-height: 1.65;">llms.txt is a Markdown file at the root of your domain that gives AI models a curated summary of your site: who you are, what you do, and which pages matter. It is not a replacement for robots.txt and does not guarantee citations, but it is a low-cost, low-risk signal that takes about an hour to implement correctly.</p>
+                </div>
                 <h2 style="margin: 2.5rem 0 1rem;">What llms.txt actually is</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">llms.txt is a Markdown file placed at the root of a domain, at <code>/llms.txt</code>, that gives large language models a curated summary of what a site is and which pages carry its most useful information. It was proposed in 2024 as a way to help <a href="ai-search-optimization">AI systems</a> read a site efficiently, rather than crawling and guessing.</p>
                 <p style="color: var(--text-muted); margin-bottom: 1.15rem;">The reasoning is straightforward. A modern web page is mostly navigation, scripts, styling and boilerplate. A language model working from raw HTML spends most of its context on markup that carries no meaning. llms.txt hands over the substance directly: who you are, what you do, and where the real content lives.</p>
@@ -335,6 +347,12 @@
                         <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
                     </summary>
                     <p>Short enough to stay accurate. Most sites need between 30 and 80 lines: an identity paragraph, a handful of key facts, and ten to twenty curated links. It is a summary, not a sitemap, so listing every page defeats the purpose.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Will llms.txt help me rank higher on Google?
+                        <svg class="icon faq-icon"><use href="#icon-chevron-down"/></svg>
+                    </summary>
+                    <p>No. It has no confirmed effect on Google's classic ranking algorithm, since it is read, if at all, by AI language models rather than Google's search index crawler. Its value is entirely in how AI answer engines understand and potentially cite your site, which is a separate outcome from organic ranking position.</p>
                 </details>
             </div>
         </section>
