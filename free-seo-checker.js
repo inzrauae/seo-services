@@ -151,7 +151,7 @@
         waLink.className = 'btn btn-primary btn-sm seo-notice-wa-btn';
         waLink.href = 'https://wa.me/94778064714?text=' + encodeURIComponent(waMessage);
         waLink.target = '_blank';
-        waLink.rel = 'noopener';
+        waLink.rel = 'noopener nofollow';
         waLink.innerHTML = '<svg class="icon"><use href="#icon-whatsapp"/></svg>';
         waLink.appendChild(document.createTextNode(' Send via WhatsApp'));
         seoNotice.appendChild(waLink);
