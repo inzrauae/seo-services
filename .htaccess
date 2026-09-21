@@ -10,6 +10,11 @@ RewriteRule ^(.*)$ https://seoservice.lk/$1 [R=301,L]
 # Served as a real 301 so link equity passes (replaces the old meta-refresh + noindex + canonical combination).
 RewriteRule ^seo-service-in-sri-lanka/?$ / [R=301,L]
 
+# Retired district pages: thin, near-templated location pages folded into the
+# locations hub (the eight major-city pages stay). A single 301 for both the
+# extensionless and .html forms, so link equity passes and crawlers see no chain.
+RewriteRule ^seo-services-(ampara|anuradhapura|badulla|batticaloa|hambantota|kegalle|kilinochchi|mannar|matale|monaragala|mullaitivu|nuwara\-eliya|polonnaruwa|puttalam|ratnapura|trincomalee|vavuniya)(\.html)?/?$ /locations [R=301,L]
+
 # Redirect /index.html to the root (avoid duplicate content)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html[\s?] [NC]
 RewriteRule ^index\.html$ / [R=301,L]
