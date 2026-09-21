@@ -15,6 +15,12 @@ RewriteRule ^seo-service-in-sri-lanka/?$ / [R=301,L]
 # extensionless and .html forms, so link equity passes and crawlers see no chain.
 RewriteRule ^seo-services-(ampara|anuradhapura|badulla|batticaloa|hambantota|kegalle|kilinochchi|mannar|matale|monaragala|mullaitivu|nuwara\-eliya|polonnaruwa|puttalam|ratnapura|trincomalee|vavuniya)(\.html)?/?$ /locations [R=301,L]
 
+# Consultant / specialist pages now live on the founder's own site so the two
+# domains do not compete for the same searches (this site keeps company and
+# services topics). Both the extensionless and .html forms, one 301 hop.
+RewriteRule ^seo-consultant-sri-lanka(\.html)?/?$ https://seoconsultantsrilanka.com/ [R=301,L]
+RewriteRule ^seo-specialist-in-sri-lanka(\.html)?/?$ https://seoconsultantsrilanka.com/seo-specialist-sri-lanka [R=301,L]
+
 # Redirect /index.html to the root (avoid duplicate content)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html[\s?] [NC]
 RewriteRule ^index\.html$ / [R=301,L]
