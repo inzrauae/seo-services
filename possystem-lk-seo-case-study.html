@@ -137,7 +137,15 @@
                         "name": "Is this Search Console data real, or a mockup?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "It's a real screenshot taken directly from the possystem.lk Google Search Console property, showing the actual Performance report for a trailing 3-month period. Nothing on it has been edited or staged."
+                            "text": "It's real. The live panel on this page is a Looker Studio report connected directly to the possystem.lk Search Console property, and the screenshot below it is an unedited capture of the same property's Performance report from a trailing 3-month period."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is the embedded live panel actually live, or just another screenshot?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It's genuinely live — a Google Looker Studio report pulling directly from the possystem.lk Search Console property. It updates on Google's own reporting schedule, which typically has a 1–3 day delay, so it can differ slightly from the dated screenshot further down the page. We don't control or edit what it shows."
                         }
                     },
                     {
@@ -219,6 +227,9 @@
         <section class="page-hero">
             <div class="container">
                 <span class="eyebrow">Verified Case Study</span>
+                <div style="display: inline-flex; align-items: center; justify-content: center; background: #fff; border-radius: 10px; padding: 0.6rem 1.1rem; height: 48px; box-sizing: content-box; margin: 1rem 0;">
+                    <img src="possystem-lk-logo.png" alt="possystem.lk logo" style="max-height: 100%; max-width: 180px; width: auto; height: auto; display: block;" decoding="async">
+                </div>
                 <h1>possystem.lk: <span class="text-gradient">#1 for "POS System Sri Lanka"</span></h1>
                 <p>A direct look at the Google Search Console data behind one of the results listed on our <a href="case-studies">case studies page</a> — a Sri Lankan POS hardware and thermal printer retailer that now holds the top commercial search terms in its category.</p>
                 <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -265,9 +276,17 @@
                 </div>
             </div>
 
+            <div class="card" style="max-width: 900px; margin: 0 auto 2.5rem;">
+                <h3 class="card-title" style="margin-bottom: 0.5rem;">Live Search Console Data</h3>
+                <p class="card-text" style="margin-bottom: 1rem; font-size: 0.9rem;">This panel is connected directly to the possystem.lk Search Console property and updates on Google's own schedule — it's not a screenshot we control or edit. Numbers here may differ slightly from the dated snapshot below since this one keeps moving.</p>
+                <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden; border-radius: var(--radius-md, 12px); border: 1px solid var(--border-color);">
+                    <iframe src="https://datastudio.google.com/embed/reporting/7c79d1f4-0438-4880-b5e0-6d708c8b0710/page/Xku9F" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" loading="lazy" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" title="Live Google Search Console performance report for possystem.lk"></iframe>
+                </div>
+            </div>
+
             <figure style="max-width: 900px; margin: 0 auto 1rem;">
                 <img src="possystem-lk-search-console-results.png" alt="Google Search Console Performance report for possystem.lk showing 384 clicks and 4,340 impressions for &quot;pos system&quot;, plus results for pos system sri lanka, thermal printer price in sri lanka and other queries, over a trailing 3-month period" width="1900" height="857" decoding="async" style="width: 100%; height: auto; border-radius: var(--radius-md, 12px); border: 1px solid var(--border-color); background: #fff;">
-                <figcaption style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem;">Google Search Console &mdash; Performance report for possystem.lk, trailing 3-month window, captured September 2026. Shows actual clicks and impressions per query, direct from Google.</figcaption>
+                <figcaption style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem;">A dated snapshot for reference &mdash; Google Search Console Performance report for possystem.lk, trailing 3-month window, captured September 2026. Shows actual clicks and impressions per query, direct from Google.</figcaption>
             </figure>
 
             <div class="card" style="max-width: 900px; margin: 2rem auto 0; overflow-x: auto;">
@@ -309,7 +328,11 @@
             </div>
             <div class="card" style="margin-bottom: 1rem;">
                 <h3 class="card-title">Is this Search Console data real, or a mockup?</h3>
-                <p class="card-text">It's a real screenshot taken directly from the possystem.lk Google Search Console property, showing the actual Performance report for a trailing 3-month period. Nothing on it has been edited or staged.</p>
+                <p class="card-text">It's real. The live panel on this page is a Looker Studio report connected directly to the possystem.lk Search Console property, and the screenshot below it is an unedited capture of the same property's Performance report from a trailing 3-month period.</p>
+            </div>
+            <div class="card" style="margin-bottom: 1rem;">
+                <h3 class="card-title">Is the embedded live panel actually live, or just another screenshot?</h3>
+                <p class="card-text">It's genuinely live — a Google Looker Studio report pulling directly from the possystem.lk Search Console property. It updates on Google's own reporting schedule, which typically has a 1–3 day delay, so it can differ slightly from the dated screenshot further down the page. We don't control or edit what it shows.</p>
             </div>
             <div class="card" style="margin-bottom: 1rem;">
                 <h3 class="card-title">What does the Search Console screenshot actually show?</h3>
