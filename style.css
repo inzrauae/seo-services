@@ -606,9 +606,9 @@ section[id] {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    align-self: flex-end;
+    align-self: flex-start;
     width: fit-content;
-    margin: 0 auto -4rem;
+    margin: 2rem auto 0;
 }
 
 .hero-photo-glow {
@@ -654,6 +654,8 @@ section[id] {
     height: auto;
     object-fit: contain;
     filter: drop-shadow(0 28px 30px rgba(0, 0, 0, 0.55));
+    -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
 }
 
 .hero-photo-fallback {
