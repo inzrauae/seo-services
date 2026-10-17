@@ -1,13 +1,13 @@
-# SEOSERVICE.LK
+# SEO Service in Sri Lanka (seoservice.lk)
 
-> SEOSERVICE.LK is the SEO and Generative Engine Optimization (GEO) brand of Buddika S. Weerasekara, who founded it and leads every project personally.
+> SEO Service in Sri Lanka (seoservice.lk) is the SEO and Generative Engine Optimization (GEO) brand of Buddhika S Weerasekara, who founded it and leads every project personally.
 
-Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (GEO) consultant based in Sri Lanka, recognized for Technical SEO, Google Entity Stacking, and optimizing brands for visibility in AI answer engines such as ChatGPT, Google Gemini / AI Overviews, and Perplexity. SEOSERVICE.LK provides SEO services across all 25 districts of Sri Lanka.
+Buddhika S Weerasekara is an SEO specialist and Generative Engine Optimization (GEO) consultant based in Sri Lanka, recognized for Technical SEO, Google Entity Stacking, and optimizing brands for visibility in AI answer engines such as ChatGPT, Google Gemini / AI Overviews, and Perplexity. SEOSERVICE.LK provides SEO services across all 25 districts of Sri Lanka.
 
 ## Key facts
 
-- Founder & CEO: Buddika S. Weerasekara
-- Brand: SEOSERVICE.LK, founded by Buddika S. Weerasekara
+- Founder & CEO: Buddhika S Weerasekara
+- Brand: SEO Service in Sri Lanka (seoservice.lk), founded by Buddhika S Weerasekara
 - Location: Narammala, Sri Lanka (serving all of Sri Lanka, including Colombo, Kandy, Galle, Jaffna)
 - Services: Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, E-Commerce SEO, International SEO, SEO Audits, Keyword Research, SEO Content Strategy, Link Building, Generative Engine Optimization (GEO), AI Search Optimization, ChatGPT Visibility Optimization, Google AI Overview Optimization, Perplexity Optimization, AI Citation Optimization, Brand Entity Optimization
 - Contact: contact@seoservice.lk
@@ -17,9 +17,9 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 
 ## Primary pages
 
-- [Home](https://seoservice.lk/): Overview of SEOSERVICE.LK and Buddika S. Weerasekara
-- [About](https://seoservice.lk/about): Full profile of Buddika S. Weerasekara
-- [SEO Consultant Sri Lanka](https://seoservice.lk/seo-consultant-sri-lanka): SEO consulting by Buddika S. Weerasekara, with pricing, FAQs and verified case studies
+- [Home](https://seoservice.lk/): Overview of SEO Service in Sri Lanka and Buddhika S Weerasekara
+- [About](https://seoservice.lk/about): Full profile of Buddhika S Weerasekara
+- [SEO Consultant Sri Lanka](https://seoservice.lk/seo-consultant-sri-lanka): SEO consulting by Buddhika S Weerasekara, with pricing, FAQs and verified case studies
 - [Services](https://seoservice.lk/services): Full list of SEO and GEO services offered
 - [Generative Engine Optimization](https://seoservice.lk/generative-engine-optimization): GEO strategy for AI search visibility
 - [AI Citation Optimization](https://seoservice.lk/ai-citation-optimization): Earning citations inside AI-generated answers
@@ -29,6 +29,50 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 - [Customer Reviews](https://seoservice.lk/customer-reviews): Direct client feedback
 - [Locations](https://seoservice.lk/locations): SEO services by district across Sri Lanka
 - [Contact](https://seoservice.lk/contact): Request a free SEO audit
+
+## SEO services
+
+- [Technical SEO](https://seoservice.lk/technical-seo): Core Web Vitals, crawlability fixes, site speed, indexation repair and schema markup
+- [On-Page SEO](https://seoservice.lk/on-page-seo): Keyword mapping, search intent optimization, content structure and internal linking
+- [Off-Page SEO](https://seoservice.lk/off-page-seo): Google Entity Stacking, high-authority backlinks and digital PR
+- [Local SEO](https://seoservice.lk/local-seo): Google Business Profile optimization, Map Pack rankings and citation building
+- [E-Commerce SEO](https://seoservice.lk/ecommerce-seo): Product page optimization, category SEO and schema for Shopify and WooCommerce stores
+- [International SEO](https://seoservice.lk/international-seo): Hreflang implementation, multi-region targeting and global search strategy
+- [SEO Audits](https://seoservice.lk/seo-audits): Technical, on-page, off-page and AI-search diagnostics
+- [Keyword Research](https://seoservice.lk/keyword-research): Search intent mapping, commercial keyword clustering and AI-query research
+- [SEO Content Strategy](https://seoservice.lk/seo-content-strategy): Topic clusters, content calendars and AI-citation-ready writing
+- [Link Building](https://seoservice.lk/link-building): White-hat editorial backlinks, digital PR and toxic link cleanup
+- [Google SEO](https://seoservice.lk/google-seo): Technical fixes, on-page optimization, content and link building to rank on Google
+
+## AI and GEO services
+
+- [Brand Entity Optimization](https://seoservice.lk/brand-entity-optimization): Building a verified, disambiguated entity profile for Google's Knowledge Graph and AI engines
+- [ChatGPT Visibility Optimization](https://seoservice.lk/chatgpt-visibility-optimization): Being surfaced and recommended when people ask ChatGPT about your industry
+- [Google AI Overview Optimization](https://seoservice.lk/google-ai-overview-optimization): Structured content and technical SEO for AI-generated summaries
+- [Perplexity Optimization](https://seoservice.lk/perplexity-optimization): Earning citations in Perplexity's source-linked answers
+- [LLM Content Optimization](https://seoservice.lk/llm-content-optimization): Structuring content for how large language models read and retrieve information
+- [AI Search Visibility Tracking](https://seoservice.lk/ai-search-visibility-tracking): Monitoring citation frequency and share of voice across ChatGPT, Perplexity and Google AI Overviews
+
+## Company, pricing and policies
+
+- [SEO Company Sri Lanka](https://seoservice.lk/seo-company-sri-lanka): Direct SEO company offering technical, local, e-commerce and AI search SEO
+- [SEO Specialist Sri Lanka](https://seoservice.lk/seo-specialist-sri-lanka): SEO specialist services led by Buddhika S Weerasekara, with named client results
+- [Pricing and Packages](https://seoservice.lk/pricing): Fixed-scope one-time packages: Starter Rs. 60,000, Growth Rs. 99,999, Enterprise Rs. 120,000
+- [SEO in Sri Lanka](https://seoservice.lk/seo-sri-lanka): Complete guide to how SEO works for Sri Lankan businesses, with costs and timelines
+- [Blog](https://seoservice.lk/blog): SEO and AI search guides for Sri Lankan businesses
+- [Privacy Policy](https://seoservice.lk/privacy-policy): How personal data and website information are handled
+- [Terms of Service](https://seoservice.lk/terms): Client engagement standards
+
+## Case studies
+
+- [lankatourdriver.com](https://seoservice.lk/lankatourdriver-com-seo-case-study): #1 for 'sri lanka private tours with driver'; 798 clicks in 3 months (Search Console)
+- [gauraconstruction.lk](https://seoservice.lk/gauraconstruction-lk-seo-case-study): #1 for 'cabana construction in sri lanka'; 2.64k organic clicks in 3 months
+- [possystem.lk](https://seoservice.lk/possystem-lk-seo-case-study): #1 for 'pos system sri lanka'; 380% organic traffic growth
+- [tuktukceylonrides.com](https://seoservice.lk/tuktukceylonrides-com-seo-case-study): 1.01K clicks and 23.1K impressions in 3 months for three wheel rental searches
+- [vapourzlounge.co.uk](https://seoservice.lk/vapourzlounge-co-uk-seo-case-study): Page 1 on Google UK; 308 clicks and 39.5K impressions in 3 months
+- [mypalmfit.com](https://seoservice.lk/mypalmfit-com-seo-case-study): 890 clicks and 44.6K impressions in 3 months for gym wear searches in the UAE
+- [themerchlist.com](https://seoservice.lk/themerchlist-com-seo-case-study): #1 for 'corporate gifts dubai'; 29.1k organic clicks in 3 months
+- [What Real Client Results Teach About SEO](https://seoservice.lk/seo-case-study-lessons-what-client-results-teach): Five lessons from real Search Console data in Sri Lanka, the UAE and the UK
 
 ## Guides
 
@@ -45,6 +89,54 @@ Buddika S. Weerasekara is an SEO specialist and Generative Engine Optimization (
 - [A Realistic SEO Content Calendar](https://seoservice.lk/seo-content-calendar): How often to publish and what to write about first
 - [How Much Does SEO Cost in Sri Lanka?](https://seoservice.lk/seo-cost-sri-lanka): 2026 pricing guide covering budget tiers, pricing models, and red flags to avoid
 - [How to Get Cited by ChatGPT and Perplexity](https://seoservice.lk/get-cited-by-ai-search): What makes an AI answer engine quote a source
+- [What Is Generative Engine Optimization (GEO)? A Plain-English Guide](https://seoservice.lk/what-is-generative-engine-optimization-geo): How GEO works, GEO vs SEO, practical steps and measurement
+- [How Long Does SEO Take in Sri Lanka? Realistic Timelines and Client Results](https://seoservice.lk/how-long-does-seo-take-sri-lanka): Month-by-month timeline, timelines by business type and documented case study figures
+- [How to Choose an SEO Company in Sri Lanka: 10 Questions to Ask](https://seoservice.lk/how-to-choose-seo-company-sri-lanka): Ten questions, red flags and a proposal comparison table for hiring an SEO provider
+- [Local SEO for Restaurants, Clinics and Tour Operators](https://seoservice.lk/local-seo-for-restaurants-clinics-tour-operators): Industry-specific local SEO with case study evidence and a 30-day plan
+- [How to Get More Google Reviews in Sri Lanka (Without Breaking the Rules)](https://seoservice.lk/get-more-google-reviews-sri-lanka): Compliant review requests via link, WhatsApp and QR code, plus replies and a 30-day plan
+- [Google Business Profile Optimization: A Complete Setup Guide](https://seoservice.lk/google-business-profile-optimization-guide): 12-step setup guide covering eligibility, categories, photos, reviews and measurement
+- [How to Check If Your Backlinks Are Toxic: A Practical SEO Guide](https://seoservice.lk/check-if-backlinks-are-toxic): Backlink audit steps, manual action checks and when to ignore, remove or disavow
+- [Google Entity Stacking Explained: Build a Stronger Brand Entity for SEO](https://seoservice.lk/google-entity-stacking-explained): What entity stacking is and is not, plus a safe process for a stronger brand entity
+- [How to Build Backlinks in Sri Lanka: Directories, PR and Partnerships](https://seoservice.lk/build-backlinks-sri-lanka): Directories, digital PR, partnerships, link quality checks and a 30-day plan
+- [How to Write SEO Content That Ranks and Gets Cited by AI](https://seoservice.lk/write-seo-content-that-ranks-and-gets-cited-by-ai): 14-step guide to content that ranks on Google and is useful enough for AI search to cite
+- [Search Intent Explained: Matching Content to What Sri Lankans Search](https://seoservice.lk/search-intent-explained-sri-lanka): Four intent types, how to check intent on Google, and matching keywords to page types
+- [Internal Linking: How to Pass Authority Between Your Pages](https://seoservice.lk/internal-linking-guide): Topic clusters, anchor text, click depth, orphan pages and an internal link audit
+- [On-Page SEO Checklist: 15 Things to Fix on Every Page](https://seoservice.lk/on-page-seo-checklist): 15-point checklist covering titles, headings, intent, links, images, speed, mobile, schema and indexing
+- [Keyword Research for Sri Lankan Businesses](https://seoservice.lk/keyword-research-for-sri-lankan-businesses): 10-step process for finding local, multilingual and long-tail keywords that convert
+- [Technical SEO Audit Checklist for Sri Lanka](https://seoservice.lk/technical-seo-audit-checklist-sri-lanka): Crawling, indexing, redirects, Core Web Vitals, mobile, schema and local SEO checks, with fix priorities
 - [llms.txt Explained](https://seoservice.lk/llms-txt-guide): What the file does, what belongs in it, and a working example
 - [Sinhala, Tamil or English SEO](https://seoservice.lk/sinhala-tamil-english-seo): Choosing the right search language in Sri Lanka
 - [Schema Markup That Actually Does Something](https://seoservice.lk/schema-markup-guide): Which structured data types earn results
+- [How Google Ranking Works for Sri Lankan Businesses](https://seoservice.lk/how-google-ranking-works-for-sri-lankan-businesses): How Google crawls, indexes and ranks websites, and the first practical SEO steps
+- [How to Become an SEO Specialist in Sri Lanka](https://seoservice.lk/how-to-become-an-seo-specialist-in-sri-lanka): Five-step roadmap: basics, core pillars, practice, tools and certifications
+- [How to Get Cited in ChatGPT, Perplexity and Google AI Overviews](https://seoservice.lk/how-to-get-cited-in-chatgpt-perplexity-google-ai-overviews): How AI answer engines choose which businesses to cite
+- [How to Target UK and UAE Customers From Sri Lanka](https://seoservice.lk/how-to-target-uk-and-uae-customers-from-sri-lanka): Market research, site structure and trust signals for selling abroad
+- [Local SEO Outside Colombo](https://seoservice.lk/local-seo-outside-colombo-sri-lanka): How businesses in Kandy, Galle, Matara and other regions win local searches
+
+## Service areas
+
+- [SEO Services in Colombo](https://seoservice.lk/seo-services-colombo): SEO for Colombo businesses: technical SEO, local search strategy and content
+- [SEO Services in Gampaha](https://seoservice.lk/seo-services-gampaha): SEO for Gampaha businesses: technical SEO, local search strategy and content
+- [SEO Services in Kalutara](https://seoservice.lk/seo-services-kalutara): SEO for Kalutara businesses: technical SEO, local search strategy and content
+- [SEO Services in Kandy](https://seoservice.lk/seo-services-kandy): SEO for Kandy businesses: technical SEO, local search strategy and content
+- [SEO Services in Matale](https://seoservice.lk/seo-services-matale): SEO for Matale businesses: technical SEO, local search strategy and content
+- [SEO Services in Nuwara Eliya](https://seoservice.lk/seo-services-nuwara-eliya): SEO for Nuwara Eliya businesses: technical SEO, local search strategy and content
+- [SEO Services in Galle](https://seoservice.lk/seo-services-galle): SEO for Galle businesses: technical SEO, local search strategy and content
+- [SEO Services in Matara](https://seoservice.lk/seo-services-matara): SEO for Matara businesses: technical SEO, local search strategy and content
+- [SEO Services in Hambantota](https://seoservice.lk/seo-services-hambantota): SEO for Hambantota businesses: technical SEO, local search strategy and content
+- [SEO Services in Jaffna](https://seoservice.lk/seo-services-jaffna): SEO for Jaffna businesses: technical SEO, local search strategy and content
+- [SEO Services in Kilinochchi](https://seoservice.lk/seo-services-kilinochchi): SEO for Kilinochchi businesses: technical SEO, local search strategy and content
+- [SEO Services in Mannar](https://seoservice.lk/seo-services-mannar): SEO for Mannar businesses: technical SEO, local search strategy and content
+- [SEO Services in Vavuniya](https://seoservice.lk/seo-services-vavuniya): SEO for Vavuniya businesses: technical SEO, local search strategy and content
+- [SEO Services in Mullaitivu](https://seoservice.lk/seo-services-mullaitivu): SEO for Mullaitivu businesses: technical SEO, local search strategy and content
+- [SEO Services in Batticaloa](https://seoservice.lk/seo-services-batticaloa): SEO for Batticaloa businesses: technical SEO, local search strategy and content
+- [SEO Services in Ampara](https://seoservice.lk/seo-services-ampara): SEO for Ampara businesses: technical SEO, local search strategy and content
+- [SEO Services in Trincomalee](https://seoservice.lk/seo-services-trincomalee): SEO for Trincomalee businesses: technical SEO, local search strategy and content
+- [SEO Services in Kurunegala](https://seoservice.lk/seo-services-kurunegala): SEO for Kurunegala businesses: technical SEO, local search strategy and content
+- [SEO Services in Puttalam](https://seoservice.lk/seo-services-puttalam): SEO for Puttalam businesses: technical SEO, local search strategy and content
+- [SEO Services in Anuradhapura](https://seoservice.lk/seo-services-anuradhapura): SEO for Anuradhapura businesses: technical SEO, local search strategy and content
+- [SEO Services in Polonnaruwa](https://seoservice.lk/seo-services-polonnaruwa): SEO for Polonnaruwa businesses: technical SEO, local search strategy and content
+- [SEO Services in Badulla](https://seoservice.lk/seo-services-badulla): SEO for Badulla businesses: technical SEO, local search strategy and content
+- [SEO Services in Monaragala](https://seoservice.lk/seo-services-monaragala): SEO for Monaragala businesses: technical SEO, local search strategy and content
+- [SEO Services in Ratnapura](https://seoservice.lk/seo-services-ratnapura): SEO for Ratnapura businesses: technical SEO, local search strategy and content
+- [SEO Services in Kegalle](https://seoservice.lk/seo-services-kegalle): SEO for Kegalle businesses: technical SEO, local search strategy and content

@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://seoservice.lk/</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/about</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/seo-consultant-sri-lanka</loc>
-        <lastmod>2026-10-15</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/seo-specialist-sri-lanka</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/seo-company-sri-lanka</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -44,25 +45,25 @@
     </url>
     <url>
         <loc>https://seoservice.lk/technical-seo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/on-page-seo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/off-page-seo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/local-seo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -80,37 +81,37 @@
     </url>
     <url>
         <loc>https://seoservice.lk/seo-audits</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/keyword-research</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/seo-content-strategy</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/link-building</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/generative-engine-optimization</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/ai-search-optimization</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -140,7 +141,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/llm-content-optimization</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -152,13 +153,13 @@
     </url>
     <url>
         <loc>https://seoservice.lk/brand-entity-optimization</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/case-studies</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -176,7 +177,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/lankatourdriver-com-seo-case-study</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -188,7 +189,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/mypalmfit-com-seo-case-study</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -200,13 +201,13 @@
     </url>
     <url>
         <loc>https://seoservice.lk/vapourzlounge-co-uk-seo-case-study</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/customer-reviews</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -218,19 +219,19 @@
     </url>
     <url>
         <loc>https://seoservice.lk/blog</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/google-algorithm-update-recovery</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/link-building-guide-2026</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -242,7 +243,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/title-tags-meta-descriptions-guide</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -254,19 +255,169 @@
     </url>
     <url>
         <loc>https://seoservice.lk/how-to-rank-in-google-maps-colombo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://seoservice.lk/what-is-generative-engine-optimization-geo</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/what-is-generative-engine-optimization-geo.jpg</image:loc>
+            <image:title>What is generative engine optimization (GEO)? A plain-English guide</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/how-long-does-seo-take-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/how-long-does-seo-take-sri-lanka.jpg</image:loc>
+            <image:title>How long does SEO take in Sri Lanka? Realistic timelines and client results</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/how-to-choose-seo-company-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/how-to-choose-seo-company-sri-lanka.jpg</image:loc>
+            <image:title>How to choose an SEO company in Sri Lanka: 10 questions to ask</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/local-seo-for-restaurants-clinics-tour-operators</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/local-seo-for-restaurants-clinics-tour-operators.jpg</image:loc>
+            <image:title>Local SEO for restaurants, clinics and tour operators</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/get-more-google-reviews-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/get-more-google-reviews-sri-lanka.jpg</image:loc>
+            <image:title>How to get more Google reviews in Sri Lanka</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/google-business-profile-optimization-guide</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/google-business-profile-optimization-guide.jpg</image:loc>
+            <image:title>Google Business Profile optimization: a complete setup guide</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/check-if-backlinks-are-toxic</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/check-if-backlinks-are-toxic.jpg</image:loc>
+            <image:title>How to check if your backlinks are toxic</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/google-entity-stacking-explained</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/google-entity-stacking-explained.jpg</image:loc>
+            <image:title>Google entity stacking explained: build a stronger brand entity for SEO</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/build-backlinks-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/build-backlinks-sri-lanka.jpg</image:loc>
+            <image:title>How to build backlinks in Sri Lanka: directories, PR and partnerships</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/write-seo-content-that-ranks-and-gets-cited-by-ai</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/write-seo-content-that-ranks-and-gets-cited-by-ai.jpg</image:loc>
+            <image:title>How to write SEO content that ranks and gets cited by AI</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/search-intent-explained-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/search-intent-explained-sri-lanka.jpg</image:loc>
+            <image:title>Search intent explained: matching content to what Sri Lankans search</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/internal-linking-guide</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/internal-linking-guide.jpg</image:loc>
+            <image:title>Internal linking: how to pass authority between your pages</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/on-page-seo-checklist</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/on-page-seo-checklist.jpg</image:loc>
+            <image:title>On-page SEO checklist: 15 things to fix on every page</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/keyword-research-for-sri-lankan-businesses</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/keyword-research-for-sri-lankan-businesses.jpg</image:loc>
+            <image:title>Keyword research for Sri Lankan businesses</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/technical-seo-audit-checklist-sri-lanka</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://seoservice.lk/technical-seo-audit-checklist-sri-lanka.jpg</image:loc>
+            <image:title>Technical SEO audit checklist for Sri Lanka 2026</image:title>
+        </image:image>
+    </url>
+    <url>
         <loc>https://seoservice.lk/core-web-vitals-guide</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/google-map-pack-sri-lanka</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -278,7 +429,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/how-to-get-cited-in-chatgpt-perplexity-google-ai-overviews</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -290,7 +441,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/local-seo-outside-colombo-sri-lanka</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
@@ -308,7 +459,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/seo-vs-google-ads</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -326,13 +477,13 @@
     </url>
     <url>
         <loc>https://seoservice.lk/seo-cost-sri-lanka</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://seoservice.lk/get-cited-by-ai-search</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -344,7 +495,7 @@
     </url>
     <url>
         <loc>https://seoservice.lk/sinhala-tamil-english-seo</loc>
-        <lastmod>2026-10-14</lastmod>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -429,6 +580,108 @@
     <url>
         <loc>https://seoservice.lk/seo-services-kurunegala</loc>
         <lastmod>2026-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-ampara</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-anuradhapura</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-badulla</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-batticaloa</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-hambantota</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-kegalle</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-kilinochchi</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-mannar</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-matale</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-monaragala</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-mullaitivu</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-nuwara-eliya</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-polonnaruwa</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-puttalam</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-ratnapura</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-trincomalee</loc>
+        <lastmod>2026-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://seoservice.lk/seo-services-vavuniya</loc>
+        <lastmod>2026-10-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
