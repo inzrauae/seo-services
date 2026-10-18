@@ -2133,3 +2133,8 @@ section[id] {
             .call-fab { left: 0.85rem; bottom: 0.85rem; width: 54px; height: 54px; }
             .call-fab-tip { display: none; }
         }
+
+.review-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .85rem;margin-bottom:.85rem}
+.review-stars{color:#f5b301;font-size:1.05rem;letter-spacing:.1em;line-height:1}
+.verified-badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.8rem;font-weight:600;color:#15803d;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.35);border-radius:999px;padding:.15rem .6rem .15rem .25rem}
+.verified-badge .tick{display:inline-flex;align-items:center;justify-content:center;width:1.05rem;height:1.05rem;border-radius:50%;background:#16a34a;color:#fff;font-size:.7rem;line-height:1}
