@@ -90,7 +90,7 @@
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    border: 3px solid rgba(212, 175, 55, 0.2);
+    border: 3px solid rgba(255,107,26, 0.2);
     border-top-color: var(--accent);
     animation: seo-spin 0.8s linear infinite;
     flex-shrink: 0;
@@ -403,8 +403,8 @@
     font-size: 0.85rem;
     line-height: 1.55;
     color: var(--accent-text);
-    background: rgba(212, 175, 55, 0.07);
-    border: 1px solid rgba(212, 175, 55, 0.15);
+    background: rgba(255,107,26, 0.07);
+    border: 1px solid rgba(255,107,26, 0.15);
     border-radius: 8px;
     padding: 0.55rem 0.75rem;
 }
@@ -438,7 +438,7 @@
 /* Lead gen */
 .seo-leadgen-card {
     text-align: center;
-    background: linear-gradient(160deg, rgba(212, 175, 55, 0.14), rgba(169, 129, 44, 0.08));
+    background: linear-gradient(160deg, rgba(255,107,26, 0.14), rgba(229,83,10, 0.08));
 }
 
 .seo-leadgen-card h2 { font-size: 1.6rem; margin-bottom: 0.6rem; }

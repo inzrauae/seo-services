@@ -1,0 +1,6 @@
+# Private working files: never commit or deploy
+New folder/
+New folder (2)/
+*.zip
+*.log
+*.prompt.txt
