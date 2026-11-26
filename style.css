@@ -3256,3 +3256,5 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
 @media (prefers-reduced-motion: reduce) {
     .nav-links.open { animation: none; }
 }
+
+.footer-brand .logo-tagline { display: block; margin-top: 0.35rem; color: #BFCBDB; font-size: 0.8rem; }
